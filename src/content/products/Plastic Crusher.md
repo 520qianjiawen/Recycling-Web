@@ -49,8 +49,7 @@ specificationsLeft:
     subTitle: "Available in various sizes and lengths to accommodate different machinery and equipment specifications."
 specificationsRight:
   - title: "Specifications"
-    subTitle:
- "| Model #  | Rotor Diameter | Rotor Width | Rotating Speed | Approx. Output | Motor Power |
+    subTitle: "| Model #  | Rotor Diameter | Rotor Width | Rotating Speed | Approx. Output | Motor Power |
 |----------|----------------|-------------|----------------|----------------|-------------|
 | SWHB600  | ⌀450mm         | 600mm       | 400-600 rpm    | 300 kg/h       | 37KW        |
 | SWHB800  | ⌀500mm         | 800mm       | 400-600 rpm    | 600 kg/h       | 45KW        |
