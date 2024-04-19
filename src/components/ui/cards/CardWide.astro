@@ -1,16 +1,14 @@
 ---
 // Import necessary modules and utilities
 import { Image } from "astro:assets";
-import Icon from "@components/ui/icons/Icon.astro";
+import Icon from "../icons/Icon.astro";
 import type { CollectionEntry } from "astro:content";
 
-const { product, productLocale = "" } = Astro.props;
+const { product } = Astro.props;
 
 interface Props {
   product: CollectionEntry<"products">;
-  productLocale?: string;
 }
-
 // Define classes to be used with the Image component
 const imageClass =
   "absolute inset-0 h-full w-full object-cover object-center transition duration-[600ms] ease-[cubic-bezier(0.45,0,0.55,1)] group-hover:scale-110";
@@ -18,9 +16,7 @@ const imageClass =
 
 <!-- The anchor tag is the main container for the product card. When clicked, this leads to the details of the product. -->
 <a
-  href={productLocale && productLocale !== "en"
-    ? `/${productLocale}/products/${product.slug.replace(/^fr\//, "")}/`
-    : `/products/${product.slug.replace(/^en\//, "")}/`}
+  href={"/products/" + product.slug}
   data-astro-prefetch
   class="group relative flex h-48 items-end overflow-hidden rounded-lg shadow-xl outline-none ring-zinc-500 focus-visible:ring dark:ring-zinc-200 dark:focus:outline-none md:col-span-2 md:h-80"
 >

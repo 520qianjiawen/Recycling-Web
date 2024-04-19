@@ -1,15 +1,11 @@
 ---
-import Icon from "@components/ui/icons/Icon.astro";
+import Icon from "../icons/Icon.astro";
 // Destructure the properties from Astro.props
-const {
-  pageTitle,
-  title = Astro.currentLocale === "fr" ? "Partager" : "Share",
-} = Astro.props;
+const { pageTitle } = Astro.props;
 
 // Define TypeScript interface for the properties
 interface Props {
   pageTitle: string;
-  title?: string;
 }
 
 type SocialPlatform = {
@@ -47,7 +43,7 @@ const socialPlatforms: SocialPlatform[] = [
   >
     <Icon name="share" />
 
-    {title}
+    Share
   </button>
 
   <div
@@ -91,7 +87,7 @@ const socialPlatforms: SocialPlatform[] = [
         </svg>
 
         <svg
-          class="js-clipboard-success hidden h-4 w-4 text-neutral-700 dark:text-neutral-300"
+          class="js-clipboard-success text-neutral-700 dark:text-neutral-300 hidden h-4 w-4"
           width="24"
           height="24"
           viewBox="0 0 24 24"
@@ -111,58 +107,44 @@ const socialPlatforms: SocialPlatform[] = [
 
 <!--Import the necessary Dropdown and Clipboard plugins-->
 <!--https://preline.co/plugins/html/dropdown.html-->
+<script is:inline src="/scripts/vendor/preline/dropdown/index.js"></script>
+
 <!-- https://clipboardjs.com/ -->
-<script>
-  import "@preline/dropdown/index.js";
-</script>
+<script is:inline src="/scripts/vendor/clipboard.min.js"></script>
 
-<script>
-  import ClipboardJS from "clipboard";
-
+<script is:inline>
   // Initialization of Clipboard
   (function () {
     window.addEventListener("load", () => {
-      const clipboards =
-        document.querySelectorAll<HTMLElement>(".js-clipboard");
-
-      clipboards.forEach((el) => {
+      const $clipboards = document.querySelectorAll(".js-clipboard");
+      $clipboards.forEach((el) => {
         const clipboard = new ClipboardJS(el, {
           text: () => {
             return window.location.href;
           },
         });
-
         clipboard.on("success", () => {
-          const defaultElement = el.querySelector<HTMLElement>(
-            ".js-clipboard-default"
-          );
-          const successElement = el.querySelector<HTMLElement>(
-            ".js-clipboard-success"
-          );
-          const successTextElement = el.querySelector<HTMLElement>(
-            ".js-clipboard-success-text"
-          );
+          const $default = el.querySelector(".js-clipboard-default");
+          const $success = el.querySelector(".js-clipboard-success");
+          const $successText = el.querySelector(".js-clipboard-success-text");
           const successText = el.dataset.clipboardSuccessText || "";
-          let oldSuccessText: string | undefined;
+          let oldSuccessText;
 
-          if (successTextElement) {
-            oldSuccessText = successTextElement.textContent || "";
-            successTextElement.textContent = successText;
+          if ($successText) {
+            oldSuccessText = $successText.textContent;
+            $successText.textContent = successText;
+          }
+          if ($default && $success) {
+            $default.style.display = "none";
+            $success.style.display = "block";
           }
 
-          if (defaultElement && successElement) {
-            defaultElement.style.display = "none";
-            successElement.style.display = "block";
-          }
-
-          setTimeout(() => {
-            if (successTextElement && oldSuccessText !== undefined) {
-              successTextElement.textContent = oldSuccessText;
-            }
-
-            if (defaultElement && successElement) {
-              successElement.style.display = "";
-              defaultElement.style.display = "";
+          setTimeout(function () {
+            if ($successText && oldSuccessText)
+              $successText.textContent = oldSuccessText;
+            if ($default && $success) {
+              $success.style.display = "";
+              $default.style.display = "";
             }
           }, 800);
         });

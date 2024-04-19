@@ -1,12 +1,12 @@
-import ogImageSrc from "@images/social.png";
+import ogImageSrc from "@/images/social.png";
 
 export const SITE = {
-  title: "ScrewFast",
-  tagline: "Top-quality Hardware Tools",
-  description: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs. Start exploring and contact our sales team for superior quality and reliability.",
-  description_short: "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
-  url: "https://screwfast.uk",
-  author: "Emil Gulamov",
+  title: "Recycling Machinery",
+  tagline: "Top-quality Plastic Recycling Machine",
+  description: "Discover top-of-the-line plastic recycling machines. Our durable and efficient equipment is designed to maximize your recycling capabilities and sustainability goals",
+  description_short: "Explore our wide range of machinery and get expert advice to optimize your recycling processes.",
+  url: "https://www.recyclemachine.net",
+  author: "Recycling Machinery",
 };
 
 export const SEO = {
@@ -33,7 +33,7 @@ export const OG = {
   locale: "en_US",
   type: "website",
   url: SITE.url,
-  title: `${SITE.title}: : Hardware Tools & Construction Services`,
-  description: "Equip your projects with ScrewFast's top-quality hardware tools and expert construction services. Trusted by industry leaders, ScrewFast offers simplicity, affordability, and reliability. Experience the difference with user-centric design and cutting-edge tools. Start exploring now!",
+  title: `${SITE.title}: : Top-quality Plastic Recycling Machine`,
+  description: "Discover top-of-the-line plastic recycling machines. Our durable and efficient equipment is designed to maximize your recycling capabilities and sustainability goals. Start exploring now!",
   image: ogImageSrc,
 };

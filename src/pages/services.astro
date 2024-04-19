@@ -1,21 +1,21 @@
 ---
 // Import necessary components
 import MainLayout from "@/layouts/MainLayout.astro";
-import MainSection from "@components/ui/blocks/MainSection.astro";
-import LeftSection from "@components/ui/blocks/LeftSection.astro";
-import RightSection from "@components/ui/blocks/RightSection.astro";
-import FeaturesStats from "@components/sections/features/FeaturesStats.astro";
+import MainSection from "@/components/ui/blocks/MainSection.astro";
+import LeftSection from "@/components/ui/blocks/LeftSection.astro";
+import RightSection from "@/components/ui/blocks/RightSection.astro";
+import FeaturesStats from "@/components/sections/features/FeaturesStats.astro";
 
 // Import necessary images
-import blueprints from "@images/blueprints-image.avif";
-import personWorking from "@images/person-working.avif";
-import beforeAfter from "@images/before-after.avif";
-import constructionWorkers from "@images/construction-workers.avif";
-import aerialView from "@images/aerial-view.avif";
-import usingTools from "@images/using-tools.avif";
-import progressBuilding from "@images/progress-building.avif";
-import underConstruction from "@images/under-construction.avif";
-import { SITE } from "@data/constants";
+import blueprints from "@/images/blueprints-image.avif";
+import personWorking from "@/images/person-working.avif";
+import beforeAfter from "@/images/before-after.avif";
+import constructionWorkers from "@/images/construction-workers.avif";
+import aerialView from "@/images/aerial-view.avif";
+import usingTools from "@/images/using-tools.avif";
+import progressBuilding from "@/images/progress-building.avif";
+import underConstruction from "@/images/under-construction.avif";
+import { SITE } from "@/data_files/constants";
 
 interface Article {
   isRightSection: boolean;
@@ -100,14 +100,14 @@ const pageTitle: string = `Services | ${SITE.title}`;
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://screwfast.uk/services",
-    "url": "https://screwfast.uk/services",
+    "@id": "https://www.recyclemachine.net/services",
+    "url": "https://www.recyclemachine.net/services",
     "name": "Expert Consultation Services | ScrewFast",
     "description": "Uniting expertise with your vision, ScrewFast provides exceptional service and comprehensive solutions in the hardware and construction industry, from consultation to project completion.",
     "isPartOf": {
         "@type": "WebSite",
-        "url": "https://screwfast.uk",
-        "name": "ScrewFast",
+        "url": "https://www.recyclemachine.net",
+        "name": "Rumtoo Machinery",
         "description": "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs."
     },
     "inLanguage": "en-US"
