@@ -52,6 +52,6 @@ specificationsRight:
     subTitle: ""
 blueprints:
   first: "@/images/small Crusher blades.webp"
-  second: "@/images/"
-slug: small crusher    
+  second: ""
+slug: small    
 ---
