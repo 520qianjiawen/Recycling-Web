@@ -6,7 +6,6 @@ import PrimaryCTA from "@/components/ui/buttons/PrimaryCTA.astro";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 import { SITE } from "@/data_files/constants";
-import { getCollection, renderMarkdown } from "astro:content"; // 导入 renderMarkdown
 
 // Global declaration for gsap animation library
 declare global {
@@ -24,7 +23,6 @@ export async function getStaticPaths() {
 }
 
 const { product } = Astro.props;
-const markdownContent = await renderMarkdown(product.body); // 渲染 Markdown 内容
 
 const pageTitle: string = `${product.data.title} | ${SITE.title}`;
 ---
