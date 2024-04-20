@@ -49,14 +49,9 @@ specificationsLeft:
     subTitle: "Available in various sizes and lengths to accommodate different machinery and equipment specifications."
 specificationsRight:
   - title: "Specifications"
-    subTitle: "| Model #  | Rotor Diameter | Rotor Width | Rotating Speed | Approx. Output | Motor Power |
-|----------|----------------|-------------|----------------|----------------|-------------|
-| SWHB600  | ⌀450mm         | 600mm       | 400-600 rpm    | 300 kg/h       | 37KW        |
-| SWHB800  | ⌀500mm         | 800mm       | 400-600 rpm    | 600 kg/h       | 45KW        |
-| SWHB1000 | ⌀600mm         | 1000mm      | 400-600 rpm    | 900 kg/h       | 75KW        |
-| SWHB1200 | ⌀700mm         | 1200mm      | 400-600 rpm    | 1200 kg/h      | 90KW        |"
+    subTitle: ""
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"
-slug: t845    
+slug: Heavy-Duty-Plastic-Crusher    
 ---
