@@ -53,5 +53,5 @@ specificationsRight:
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"
-slug: Heavy-Duty-Plastic-Crusher    
+slug: Crusher    
 ---
