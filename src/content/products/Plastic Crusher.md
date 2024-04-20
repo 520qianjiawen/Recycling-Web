@@ -49,9 +49,12 @@ specificationsLeft:
     subTitle: "Available in various sizes and lengths to accommodate different machinery and equipment specifications."
 specificationsRight:
   - title: "Specifications"
-    subTitle: ""
+    subTitle: "| 列1 | 列2 | 列3 |
+| --- | --- | --- |
+| 条目1 | 条目2 | 条目3 |
+| 条目4 | 条目5 | 条目6 |"
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"
-slug: Crusher    
+slug: Heavy-Duty-Plastic-Crusher    
 ---
