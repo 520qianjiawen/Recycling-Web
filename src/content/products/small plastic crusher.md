@@ -1,13 +1,13 @@
 ---
 title: "Small Plastic Crusher"
-description: "Small Plastic Crusher Machines for Efficient Recycling"
+description: "top-quality small plastic crushers for efficient and versatile crushing"
 main:
   id: 1
   content: |
-    Our standard heavy-duty plastic granulator machines, sometimes called plastic crushers, are essential machines in the plastic recycling industry. These specially designed granulators are extremely durable and have the unique ability to quickly and efficiently cut various plastic streams into small uniform flakes or regrinds.
-  imgCard: "@/images/Plastic Crusher-02.webp"
-  imgMain: "@/images/Plastic Crusher-01.webp"
-  imgAlt: "The image shows a plastic granulator machine. It is used to recycle plastic waste by breaking it down into smaller pieces. The machine has a hopper on top where the plastic waste is fed, and a chamber below where the plastic is shredded. The shredded plastic is then expelled from the machine through a discharge chute."
+    The Small Plastic Crusher is a compact and efficient machine designed for the reduction of plastic waste. This device is perfect for recycling operations, significantly reducing the size of plastic materials for easier management and disposal.
+  imgCard: "@/images/Small Crusher.webp"
+  imgMain: "@/images/Small Crusher.webp"
+  imgAlt: "a large small plastic crusher or granulator. This type of machine is often used for recycling plastics, as it can break down large pieces of plastic into smaller flakes or pellets. The machine has a hopper on top where the plastic is fed in, and a chamber below where the plastic is shredded by rotating blades. The shredded plastic is then collected in a bin or container at the bottom of the machine."
 tabs:
   - id: "tabs-with-card-item-1"
     dataTab: "#tabs-with-card-1"
@@ -54,7 +54,7 @@ specificationsRight:
 | 条目1 | 条目2 | 条目3 |
 | 条目4 | 条目5 | 条目6 |"
 blueprints:
-  first: "@/images/blueprint-1.avif"
+  first: "@/images/small Crusher blades.webp"
   second: "@/images/blueprint-2.avif"
 slug: Small-Plastic-Crusher    
 ---
