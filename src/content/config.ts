@@ -44,7 +44,7 @@ const productsCollection = defineCollection({
       z.object({
         title: z.string(),
         subTitle: z.string(),
-        imageform: z.string().optional(), // 确保这里有 image 属性
+        form: image().optional(),
       })
     ).optional(),
     blueprints: z.object({
