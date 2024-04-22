@@ -46,7 +46,7 @@ specificationsLeft:
 specificationsRight:
   - title: "Specifications"
     subTitle: "small crusher"
-    image: "@/images/small crusher form.webp"
+    image: "/images/small crusher form.webp"
 blueprints:
   first: "@/images/small Crusher blades.webp"
   second: "@/images/Sieve Part.webp"
