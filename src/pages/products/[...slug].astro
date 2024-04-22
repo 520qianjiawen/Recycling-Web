@@ -7,6 +7,13 @@ import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
 import { SITE } from "@/data_files/constants";
 
+// Type definition for specifications
+type Specification = {
+  title: string;
+  subTitle: string;
+  image?: string; // Optional image property
+};
+
 // Global declaration for gsap animation library
 declare global {
   interface Window {
@@ -23,6 +30,9 @@ export async function getStaticPaths() {
 }
 
 const { product } = Astro.props;
+
+// Ensure the product data matches the type definition
+const specificationsRight: Specification[] = (product.data.specificationsRight as Specification[]) ?? [];
 
 const pageTitle: string = `${product.data.title} | ${SITE.title}`;
 ---
@@ -158,6 +168,8 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
                     <p class="text-neutral-600 dark:text-neutral-400">
                       {spec.subTitle}
                     </p>
+                    {spec.image && (
+                      <img src={spec.image} alt={`图片描述 - ${spec.title}`} />
                   </div>
                 ))
               }
