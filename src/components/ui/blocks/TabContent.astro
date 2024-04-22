@@ -3,7 +3,7 @@
 import { Image } from "astro:assets";
 
 // Destructure the component properties from Astro.props
-const { id, aria, src, alt, first, second } = Astro.props;
+const { id, aria, src, alt, first, second, form } = Astro.props;
 
 // Define TypeScript interface for the properties
 interface Props {
@@ -36,7 +36,7 @@ You can enable this for any TabContent component you want to apply these changes
 This is the full example:
 <TabContent id="" aria="" src="" alt="" first={true}/>
 <TabContent id="" aria="" src="" alt="" second={true}/>
-<TabContent id="" aria="" src="" alt="" />
+<TabContent id="" aria="" src="" alt="" form={true}/>
 */
 ---
 
