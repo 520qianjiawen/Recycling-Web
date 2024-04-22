@@ -169,13 +169,14 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
                       {spec.subTitle}
                     </p>
 <Image
-              src={product.data.main.image}
-              class="h-full w-full object-cover object-center"
-              alt="Illustration"
-              format={"avif"}
-            />
-          )
-        }
+          id="fadeInMoveRight"
+          src={product.data.main.imgMain}
+          class="w-[600px]"
+          alt={product.data.main.imgAlt}
+          format={"avif"}
+          loading={"eager"}
+        />
+
                   </div>
                 ))
               }
