@@ -168,7 +168,15 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
                     <p class="text-neutral-600 dark:text-neutral-400">
                       {spec.subTitle}
                     </p>
-
+{
+  spec.image && (
+    <Image
+      src={spec.image}
+      alt={`图片描述 - ${spec.title}`}
+      class="w-full object-cover object-center"
+    />
+  )
+}
                   </div>
                 ))
               }
