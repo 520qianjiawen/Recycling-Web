@@ -13,6 +13,7 @@ const productsCollection = defineCollection({
       content: z.string(),
       imgCard: image(),
       imgMain: image(),
+      imgForm: image(),
       imgAlt: z.string(),
     }),
     tabs: z.array(
