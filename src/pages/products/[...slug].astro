@@ -169,7 +169,7 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
                       {spec.subTitle}
                     </p>
 <Image
-              src={spec.image}
+              src={product.data.specificationsRight?.map}
               class="h-full w-full object-cover object-center"
               alt="Illustration"
               format={"avif"}
