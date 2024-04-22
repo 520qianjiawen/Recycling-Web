@@ -44,7 +44,7 @@ const productsCollection = defineCollection({
       z.object({
         title: z.string(),
         subTitle: z.string(),
-        imgCard: image(),
+        image: image().optional(),
       })
     ).optional(),
     blueprints: z.object({
