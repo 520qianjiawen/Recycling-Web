@@ -45,7 +45,7 @@ specificationsLeft:
     subTitle: "Available from 50kg/hour to 500kg/hour to suit different working scenarios."
 specificationsRight:
   - title: "Specifications"
-    image: "@/images/small crusher form.webp"
+    subTitle: "@/images/small crusher form.webp"
 blueprints:
   first: "@/images/small Crusher blades.webp"
   second: "@/images/Sieve Part.webp"
