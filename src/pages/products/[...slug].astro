@@ -168,9 +168,8 @@ const pageTitle: string = `${product.data.title} | ${SITE.title}`;
                     <p class="text-neutral-600 dark:text-neutral-400">
                       {spec.subTitle}
                     </p>
-                    {/* Render image if it exists */}
 {spec.image && (
-  <img src={spec.image} alt={`图片描述 - ${spec.title}`} />
+  <img src={resolve(spec.image)} alt={`图片描述 - ${spec.title}`} />
 )}
                   </div>
                 ))
