@@ -40,3 +40,15 @@ However, with its unwavering dedication to innovation and a track record of succ
 In the ever-evolving landscape of construction technology, ScrewFast remains a trailblazer, constantly pushing the boundaries of what is possible. Through its commitment to innovation, digitalization, and sustainability, the company has not only revolutionized the way structures are built but has also set a new standard for excellence in the industry.
 
 As we look towards the future, one thing is clear: the legacy of ScrewFast will continue to shape the world of construction for years to come, inspiring generations of builders to dream big and push the limits of possibility. With ScrewFast leading the way, the future of construction has never looked brighter.
+
+| Model No | RT-SWP3126 | RT-SWP4128 | RT-SWP5032 | RT-SWP6032 | RT-SWP6246 | RT-SWP8146 |
+| --- | --- | --- | --- | --- | --- | --- |
+| Crushing Caliber（mm） | 310×265 | 410×280 | 500×320 | 600×320 | 620×460 | 810×460 |
+| Crushing capacity kg/h | 100-200 | 100-300 | 100-300 | 150-450 | 200-500 | 280-700 |
+| Fixed knife (pcs) | 2 | 2 | 2 | 2 | 2 | 4 |
+| Rotating Knife (pcs) | 9 | 12 | 15 | 18 | 18 | 24 |
+| Power (kw) | 7.5 | 10 | 15 | 20 | 30 | 30/40 |
+| Rotate speed (r/min) | 520 | 520 | 520 | 520 | 520 | 520 |
+| Mesh size | 8 | 8 | 10 | 10 | 12 | 12 |
+| Dimension/mm | 1150×720×1220 | 1200×860×1350 | 1300×950×1530 | 1400×1060×1600 | 1600×1240×1850 | 1800×1500×2120 |
+| Weight/kg | 350 | 450 | 680 | 900 | 1200 | 2000 |
