@@ -19,9 +19,9 @@ const footerLinks = [
   {
     section: "Company",
     links: [
-      { name: "About us", url: "#" },
+      { name: "About us", url: "https://www.recyclemachine.net/about-us" },
       { name: "Blog", url: "/blog" },
-      { name: "Contact US", url: "#" },
+      { name: "Contact US", url: "https://www.recyclemachine.net/contact-us" },
       { name: "Privacy Policy", url: "https://www.recyclemachine.net/privacy-policy" },
     ],
   },
