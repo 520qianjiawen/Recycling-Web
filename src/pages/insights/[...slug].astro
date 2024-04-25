@@ -143,16 +143,30 @@ const pageTitle: string = `${post.data.title} | ${SITE.title}`;
     height: 1.25rem;
     margin-right: 0.3rem;
   }
-  /* 添加表格边框样式 */
-  table {
-    border-collapse: collapse;
-    width: 100%; /* 可根据需要调整 */
+    /* 添加表格的自适应和居中样式 */
+  .table-container {
+    width: 100%;
+    overflow-x: auto; /* 在小屏幕上允许滚动 */
   }
 
-  th,
-  td {
-    border: 1px solid #000; /* 这将添加黑色边框 */
-    padding: 8px; /* 可根据需要调整 */
+  table {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+  }
+
+  th, td {
+    border: 1px solid #000;
+    padding: 8px; /* 或者您想要的任何值 */
+    text-align: left; /* 如果您希望文字左对齐 */
+  }
+
+  /* 在较小屏幕上优化表格显示 */
+  @media (max-width: 768px) {
+    th, td {
+      padding: 4px; /* 减少填充以节省空间 */
+    }
   }
 </style>
 
