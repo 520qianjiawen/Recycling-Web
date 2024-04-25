@@ -143,26 +143,19 @@ const pageTitle: string = `${post.data.title} | ${SITE.title}`;
     height: 1.25rem;
     margin-right: 0.3rem;
   }
-     /* 表格样式 */
+  /* 下面添加新的全局样式规则 */
   table {
-    width: 100%; /* 表格宽度为100% */
-    margin-top: 1em; /* 在表格顶部添加一些间隔 */
-    margin-bottom: 1em; /* 在表格底部添加一些间隔 */
-    border-collapse: collapse; /* 边框合并，避免双边框 */
+    border-collapse: collapse;
+    width: 100%; /* 根据需要调整 */
+    margin-left: auto;
+    margin-right: auto;
   }
 
   th, td {
-    border: 1px solid #ddd; /* 单元格边框样式 */
-    text-align: left; /* 文本左对齐 */
-    padding: 8px; /* 单元格内边距 */
+    border: 1px solid #000; /* 添加黑色边框 */
+    padding: 8px; /* 根据需要调整 */
   }
-
-  /* 在小屏幕上为表格添加滚动 */
-  @media (max-width: 768px) {
-    .markdown-content { /* 假设包裹 Markdown 内容的 div 有这个类名 */
-      overflow-x: auto; /* 允许水平滚动 */
-    }
-  }
+     
 </style>
 
 <script>
