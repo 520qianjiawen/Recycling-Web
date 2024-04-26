@@ -13,16 +13,6 @@ import type { CollectionEntry } from "astro:content";
 import { SITE } from "@/data_files/constants";
 import { Markdown } from '@astrojs/markdown-remark'; // 添加Markdown支持
 
-// 使用 Astro.glob 导入所有博客文章
-const allPosts = await Astro.glob('../content/blog/*.md');
-
-// 假设你有路由参数 slug 来识别文章，可以从 params 中获取
-// 如果没有使用 slug，可以直接引用对应的 Markdown 文件
-const { slug } = Astro.request.params;
-const post = allPosts.find(post => post.file === `${slug}.md`);
-
-// 渲染Markdown为HTML
-const content = await Markdown(post.raw);
 
 // getStaticPaths is used to pre-render all routes based on the blog posts
 export async function getStaticPaths() {
@@ -54,12 +44,6 @@ const pageTitle: string = `${post.data.title} | ${SITE.title}`;
   title={pageTitle}
 >
   <section class="mx-auto max-w-3xl px-4 pb-12 pt-6 sm:px-6 lg:px-8 lg:pt-10">
-  <!-- 将新的 article 区块放在此处 -->
-    <article>
-      <h1>{post.frontmatter.title}</h1>
-      <div innerHTML={{ html: content }} />
-    </article>
-    <!-- 接下来是其他页面部分 -->
     <div class="max-w-2xl">
       <div class="mb-6 flex items-center justify-between">
         <div class="flex w-full gap-x-5 sm:items-center sm:gap-x-3">
