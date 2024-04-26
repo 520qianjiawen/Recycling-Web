@@ -13,7 +13,7 @@ In the world of construction, where innovation meets practicality, ScrewFast sta
 
 Founded with a vision to redefine the norms of construction, ScrewFast embarked on a journey marked by relentless innovation. Since its inception, the company has continually pushed the boundaries of what is possible, introducing groundbreaking technologies that have transformed the way structures are built.
 
-![繁星点点的夜空](/images/product-image-4.avif)
+![繁星点点的夜空](/images/small crusher form.webp)
 
 ## Reinventing Foundation Systems
 
