@@ -91,6 +91,7 @@ const pageTitle: string = `${post.data.title} | ${SITE.title}`;
                 <p class="text-pretty text-lg text-neutral-700 dark:text-neutral-300">
                   {content}
                 </p>
+                <Fragment set:html={content} />
                 <Image
                   class="w-full rounded-xl object-cover"
                   src={post.data.cardImage}
