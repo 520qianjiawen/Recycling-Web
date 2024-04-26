@@ -24,6 +24,7 @@ By leveraging advanced techniques such as helical pile installation, ScrewFast h
 In an era dominated by digitalization, ScrewFast has embraced technology wholeheartedly, harnessing its power to drive efficiency and precision. Through the use of advanced software and modeling techniques, the company has revolutionized the design and planning phases of construction projects.
 
 From 3D modeling to Building Information Modeling (BIM), ScrewFast employs cutting-edge tools to create detailed simulations of structures, allowing for better visualization and optimization. This digital approach not only enhances the accuracy of construction plans but also enables seamless collaboration among architects, engineers, and builders.
+<Image src="/images/small crusher form.webp" alt="crusher image" />
 
 ## Sustainable Solutions for a Greener Tomorrow
 
