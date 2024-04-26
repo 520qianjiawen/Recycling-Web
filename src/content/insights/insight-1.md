@@ -5,6 +5,8 @@ cardImage: "@/images/insights/insight-1.avif"
 cardImageAlt: "Top view mechanical tools arrangement"
 articleImage: "@/images/small crusher form.webp"
 articleImageAlt: "Alt text for the article image"
+import { Image } from 'astro:assets';
+import localBirdImage from '../../images/small crusher form.webp';
 ---
 
 In the world of construction, where innovation meets practicality, ScrewFast stands as a beacon of pioneering advancements. For years, this company has been at the forefront of revolutionizing construction through its unwavering commitment to advanced technology and innovative solutions. From skyscrapers to bridges, ScrewFast has left an indelible mark on the industry, shaping the future of construction in ways once thought unimaginable.
@@ -12,6 +14,8 @@ In the world of construction, where innovation meets practicality, ScrewFast sta
 ## A Legacy of Innovation
 
 Founded with a vision to redefine the norms of construction, ScrewFast embarked on a journey marked by relentless innovation. Since its inception, the company has continually pushed the boundaries of what is possible, introducing groundbreaking technologies that have transformed the way structures are built.
+<img src={localBirdImage.src} alt="一只鸟坐在蛋窝上。">
+
 
 ## Reinventing Foundation Systems
 
