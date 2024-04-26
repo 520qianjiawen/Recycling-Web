@@ -81,6 +81,8 @@ const insightsCollection = defineCollection({
   // contents: z.array(z.string()),
   cardImage: image(),
   cardImageAlt: z.string(),
+  articleImage: image(), // 添加这一行
+  articleImageAlt: z.string(), // 添加这一行
   }),
 });
 
