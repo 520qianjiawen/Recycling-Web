@@ -4,6 +4,7 @@ import { SITE } from "@/data_files/constants";
 import MainLayout from "@/layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
+import { Fragment } from 'astro:jsx'; // 添加这行
 
 // Use `getStaticPaths` to generate static routes for generated pages on build
 export async function getStaticPaths() {
@@ -16,11 +17,11 @@ export async function getStaticPaths() {
 
 // Get the props for this page that define a specific insight post
 const { post } = Astro.props;
-
 const { Content } = await post.render();
-
 const pageTitle: string = `${post.data.title} | ${SITE.title}`;
 ---
+
+<Fragment set:html={Content} />
 
 <MainLayout title={pageTitle}>
   <section class="py-6 sm:py-8 lg:py-12">
