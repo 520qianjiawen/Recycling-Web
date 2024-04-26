@@ -86,11 +86,34 @@ const pageTitle: string = `${post.data.title} | ${SITE.title}`;
       <div class="mb-5 space-y-5 md:mb-8 md:space-y-8">
         {
           post.data.contents.map((content: string, index: any) =>
-            index === 1 ? (
-              <>
-                <p class="text-pretty text-lg text-neutral-700 dark:text-neutral-300">
-                  {content}
-                </p>
+            // 检查内容是否以"#"开头，以此来确定标题的级别
+      const matchH2 = content.trim().startsWith('# ');
+      const matchH3 = content.trim().startsWith('## ');
+      const matchH4 = content.trim().startsWith('### ');
+
+      return (
+        <div key={index}>
+          {matchH2 && (
+            <h2 className="text-xl font-medium text-neutral-900 dark:text-neutral-100 mb-3">
+              {content.slice(2)} {/* 移除标题标记 */}
+            </h2>
+          )}
+          {matchH3 && (
+            <h3 className="text-lg font-medium text-neutral-800 dark:text-neutral-200 mb-3">
+              {content.slice(3)} {/* 移除标题标记 */}
+            </h3>
+          )}
+          {matchH4 && (
+            <h4 className="text-base font-medium text-neutral-800 dark:text-neutral-200 mb-2">
+              {content.slice(4)} {/* 移除标题标记 */}
+            </h4>
+          )}
+          {!matchH2 && !matchH3 && !matchH4 && (
+            <>
+              <p className="text-pretty text-lg text-neutral-700 dark:text-neutral-300">
+                {content}
+              </p>
+              {index === 1 && (
                 <Image
                   class="w-full rounded-xl object-cover"
                   src={post.data.cardImage}
