@@ -9,6 +9,7 @@ cardImage: "@/images/blog/post-1.avif"
 cardImageAlt: "Top view mechanical tools arrangement"
 readTime: 4
 tags: ["tools", "construction", "workflow" ]
+---
 contents: [
   `<p>In today's fast-paced construction industry, efficiency is key to success. At ScrewFast, we understand the importance of optimizing your project workflow to meet deadlines and stay within budget. That's why we're thrilled to introduce our cutting-edge tools designed to empower your projects like never before.</p>`,
   `<h2>Precision Engineering Meets User-Centric Design</h2>`,
@@ -19,4 +20,4 @@ contents: [
   `<p>But efficiency isn't just about the tools you use—it's also about the support you receive. That's why ScrewFast offers comprehensive documentation and expert guidance every step of the way. Our dedicated teams are committed to your success, providing personalized assistance to ensure you get the most out of our products.</p>`,
   `<p>Join the countless industry leaders who have already experienced the difference ScrewFast tools can make. With our cutting-edge solutions, you can fast-track your projects to success and stay ahead of the competition.</p>`
 ]
----
+
