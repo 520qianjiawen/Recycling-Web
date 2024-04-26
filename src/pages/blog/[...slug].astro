@@ -11,8 +11,6 @@ import { capitalize, formatDate } from "@/utils/utils";
 import { getCollection } from "astro:content";
 import type { CollectionEntry } from "astro:content";
 import { SITE } from "@/data_files/constants";
-import { Markdown } from '@astrojs/markdown-remark'; // 添加Markdown支持
-
 
 // getStaticPaths is used to pre-render all routes based on the blog posts
 export async function getStaticPaths() {
