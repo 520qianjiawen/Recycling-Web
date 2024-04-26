@@ -88,7 +88,9 @@ const pageTitle: string = `${post.data.title} | ${SITE.title}`;
           post.data.contents.map((content: string, index: any) =>
             index === 1 ? (
               <>
-                <Fragment set:html={content} />
+                <p class="text-pretty text-lg text-neutral-700 dark:text-neutral-300">
+                  {content}
+                </p>
                 <Image
                   class="w-full rounded-xl object-cover"
                   src={post.data.cardImage}
@@ -98,7 +100,9 @@ const pageTitle: string = `${post.data.title} | ${SITE.title}`;
                 />
               </>
             ) : (
-        <Fragment set:html={content} />
+              <p class="text-pretty text-lg text-neutral-700 dark:text-neutral-300">
+                {content}
+              </p>
             )
           )
         }
