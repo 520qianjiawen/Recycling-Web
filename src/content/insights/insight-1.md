@@ -41,7 +41,4 @@ In the ever-evolving landscape of construction technology, ScrewFast remains a t
 
 As we look towards the future, one thing is clear: the legacy of ScrewFast will continue to shape the world of construction for years to come, inspiring generations of builders to dream big and push the limits of possibility. With ScrewFast leading the way, the future of construction has never looked brighter.
 
-<div class="image-container">
-  <img src="@/images/small crusher form.webp" alt="Alt Text" class="custom-image" />
-  <p class="image-caption">图片说明文字</p>
-</div>
+![Crusher](/images/small crusher form.webp)
