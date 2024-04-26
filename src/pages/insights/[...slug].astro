@@ -4,8 +4,6 @@ import { SITE } from "@/data_files/constants";
 import MainLayout from "@/layouts/MainLayout.astro";
 import { Image } from "astro:assets";
 import { getCollection } from "astro:content";
-import react from '@astrojs/react';
-import { Fragment } from 'react'; // 从 react 导入 Fragment
 
 // Use `getStaticPaths` to generate static routes for generated pages on build
 export async function getStaticPaths() {
@@ -21,8 +19,6 @@ const { post } = Astro.props;
 const { Content } = await post.render();
 const pageTitle: string = `${post.data.title} | ${SITE.title}`;
 ---
-
-<Fragment set:html={Content} />
 
 <MainLayout title={pageTitle}>
   <section class="py-6 sm:py-8 lg:py-12">
