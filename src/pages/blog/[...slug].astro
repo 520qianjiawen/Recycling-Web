@@ -20,8 +20,12 @@ export async function getStaticPaths() {
     props: { post },
   }));
 }
+
 // Get the current post's data
 const { post } = Astro.props;
+
+// Render the Markdown content to HTML using post.render()
+const { Content } = await post.render();
 
 // Get all blog posts
 const blogPosts: CollectionEntry<"blog">[] = await getCollection("blog");
