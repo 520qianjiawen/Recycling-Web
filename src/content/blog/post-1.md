@@ -26,7 +26,7 @@ In addition to pelletizing plastic films, this system can also handle raffia, fi
 
 **Water-ring Pelletizing:** A die-face water-ring pelletizing system is set as the standard granulating method. An advanced dewatering vibration sieve combined with a horizontal-type centrifugal dewatering system ensures high-performance dried pellets.
 
-![Small Crusher](../images/small_crusher_form.webp)
+![Small Crusher](@/images/small_crusher_form.webp)
 
 
 | Model Size | Efficiency Volume (Liter) | Motor Power (KW) | Diameter of screw (mm) | L/D | Motor Power (KW) | Throughput Rate (kg/h) |
