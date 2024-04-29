@@ -9,12 +9,13 @@ cardImage: "@/images/blog/plastic film pelletizing machine.webp"
 cardImageAlt: "The picture shows an industrial machine, specifically a plastic film pelletizing line. This type of equipment is used for recycling plastic materials, such as plastic films, bags, and flakes. It generally operates by taking plastic waste, shredding it into smaller pieces, washing it, and then extruding it into pellets which can be used to manufacture new plastic products. The system often includes components like a conveyor belt, shredder or cutter, extruder, pelletizer, and sometimes a storage or cooling mechanism, such as a silo with a cyclone system for collecting the finished pellets."
 readTime: 4
 tags: ["pelletizing", "pelletizer", "plastic recycling machine", "plastic film recycling", "plastic pelletizer" ]
-contents: [
+---
+## contents
 "Our PP/PE plastic film water-ring pelletizing system integrates the functions of crushing, compacting, plasticization, and pelletizing into a single step. At its core lies our highly efficient single-screw extruder equipped with advanced heat stabilization technologies, resulting in high-quality pellets that help improve your bottom line.",
 
 "In addition to pelletizing plastic films, this system can also handle raffia, filaments, bags, woven bags, and re-pelletize densified materials. The final products produced by this pelletizing system are in the form of pellets or granules that can be directly used in production lines for film blowing, pipe extrusion, and plastic injection molding.",
 
-"## WORKING PRINCIPLE",
+## WORKING PRINCIPLE"
 
 "**Feeding:** As a standard design, plastic scraps such as films and raffia are conveyed into the compacting room through a belt conveyor. To handle roll scraps, a roll hauling-off device is an optional feeding method. The feeding speed of the conveyor belt or roll hauling-off is fully automatic, based on the fullness of the compactor's room. A metal detector can be combined with the belt conveyor and can interlock with the control system to warn and stop the system if metal is detected in the feeding section.",
 
@@ -25,5 +26,3 @@ contents: [
 "Melt Filtration: A segmented filtering principle is employed, with fore-filtering in the first extruder and fine filtering in the second extruder, reducing the frequency of filter screen changes. The requirements for filter technology depend on the quality of the input material and the planned use of the granules.",
 
 "Water-ring Pelletizing: A die-face water-ring pelletizing system is set as the standard granulating method. An advanced dewatering vibration sieve combined with a horizontal-type centrifugal dewatering system ensures high-performance dried pellets."
-]
----
