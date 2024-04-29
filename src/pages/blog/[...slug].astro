@@ -140,4 +140,37 @@ const pageTitle: string = `${post.data.title} | ${SITE.title}`;
     margin-top: 1rem;
     margin-bottom: 1rem;
   }
+
+  /* 应用于所有表格的基础样式 */
+table {
+    width: 100%;            /* 表格宽度占满容器 */
+    border-collapse: collapse; /* 边框合并，去除双边框 */
+    margin: 20px 0;         /* 上下间距20px，左右无间距 */
+}
+
+/* 单元格和表头样式 */
+th, td {
+    border: 1px solid #ccc; /* 灰色边框 */
+    padding: 10px;          /* 内边距 */
+    text-align: left;       /* 文字左对齐 */
+}
+
+/* 表头专用样式 */
+th {
+    background-color: #f9f9f9; /* 背景颜色 */
+    font-weight: bold;         /* 字体加粗 */
+}
+
+/* 响应式字体大小 */
+@media (max-width: 600px) {
+    th, td {
+        font-size: 14px; /* 较小屏幕下字体大小减小 */
+    }
+}
+
+@media (min-width: 601px) {
+    th, td {
+        font-size: 16px; /* 较大屏幕下字体大小增加 */
+    }
+}
 </style>
