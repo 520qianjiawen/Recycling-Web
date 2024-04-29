@@ -2,8 +2,8 @@
 title: "plastic film pelletizing machine"
 description: "Plastic pelletizing Machines are designed to deal with a wide variety of plastic materials in an efficient way with a user-friendly operation. Whether you are a producer or professio"
 author: "ASG"
-authorImage: "@/images/blog/jacob.avif"
-authorImageAlt: "Avatar Description"
+authorImage: "@/images/blog/plastic film pelletizing machine.webp"
+authorImageAlt: "The picture shows an industrial machine, specifically a plastic film pelletizing line. This type of equipment is used for recycling plastic materials, such as plastic films, bags, and flakes. It generally operates by taking plastic waste, shredding it into smaller pieces, washing it, and then extruding it into pellets which can be used to manufacture new plastic products. The system often includes components like a conveyor belt, shredder or cutter, extruder, pelletizer, and sometimes a storage or cooling mechanism, such as a silo with a cyclone system for collecting the finished pellets."
 pubDate: 2024-02-06
 cardImage: "@/images/blog/post-1.avif"
 cardImageAlt: "Top view mechanical tools arrangement"
