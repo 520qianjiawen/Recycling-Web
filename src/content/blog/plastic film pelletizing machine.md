@@ -45,3 +45,7 @@ In addition to pelletizing plastic films, this system can also handle raffia, fi
 | SJ140      | 1000                      | 110              | 140                    | 36  | 160/185         | 500-650               |
 | SJ160      | 1200                      | 132              | 160                    | 34  | 220/250         | 800-1000              |
 | SJ180      | 1400                      | 315              | 180                    | 34  | 315             | 1000-1200             |
+
+<div class="email-button-container">
+  <a href="mailto:sales@rumtoo.com" class="email-button">Send Message</a>
+</div>
