@@ -97,6 +97,15 @@ const pageTitle: string = `${post.data.title} | ${SITE.title}`;
   </section>
 </MainLayout>
 
+{/* 将这段脚本放在最后 */}
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    document.querySelectorAll('img').forEach(img => {
+      img.classList.add('image-style');
+    });
+  });
+</script>
+
 <style is:global>
   :root {
     --transition-cubic: cubic-bezier(0.165, 0.84, 0.44, 1);
