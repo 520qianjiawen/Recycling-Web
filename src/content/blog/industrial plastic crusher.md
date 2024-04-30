@@ -33,6 +33,7 @@ Plastic shredder machines, while also used for size reduction in plastic recycli
 ## Show Photos
 
 ![plastic crusher-01](/images/plastic_crusher-01.webp)
+![plastic crusher-01](/images/plastic_crusher_blade.webp)
 
 
 <div class="scrollable-table-container">
