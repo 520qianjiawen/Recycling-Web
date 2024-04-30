@@ -36,7 +36,8 @@ In addition to pelletizing plastic films, this system can also handle raffia, fi
 ![plastic film pelletizer machine-04](/images/plastic-film-pelletizer-04.webp)
 
 
-
+<div class="scrollable-table-container">
+  <table>
 | Model Size | Efficiency Volume (Liter) | Motor Power (KW) | Diameter of screw (mm) | L/D | Motor Power (KW) | Throughput Rate (kg/h) |
 |------------|---------------------------|------------------|------------------------|-----|-----------------|-----------------------|
 | SJ80       | 300                       | 37               | 80                     | 36  | 45/55           | 160-220               |
@@ -45,6 +46,8 @@ In addition to pelletizing plastic films, this system can also handle raffia, fi
 | SJ140      | 1000                      | 110              | 140                    | 36  | 160/185         | 500-650               |
 | SJ160      | 1200                      | 132              | 160                    | 34  | 220/250         | 800-1000              |
 | SJ180      | 1400                      | 315              | 180                    | 34  | 315             | 1000-1200             |
+ </table>
+</div>
 
 ## Inquire Now
 
