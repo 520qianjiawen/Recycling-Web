@@ -37,14 +37,75 @@ In addition to pelletizing plastic films, this system can also handle raffia, fi
 
 
 <div class="scrollable-table-container">
-  <table>| Model Size | Efficiency Volume (Liter) | Motor Power (KW) | Diameter of screw (mm) | L/D | Motor Power (KW) | Throughput Rate (kg/h) |
-|------------|---------------------------|------------------|------------------------|-----|-----------------|-----------------------|
-| SJ80       | 300                       | 37               | 80                     | 36  | 45/55           | 160-220               |
-| SJ100      | 500                       | 55               | 100                    | 36  | 90/110          | 300-380               |
-| SJ120      | 800                       | 90               | 120                    | 36  | 132             | 450-480               |
-| SJ140      | 1000                      | 110              | 140                    | 36  | 160/185         | 500-650               |
-| SJ160      | 1200                      | 132              | 160                    | 34  | 220/250         | 800-1000              |
-| SJ180      | 1400                      | 315              | 180                    | 34  | 315             | 1000-1200             |</table>
+  <table>
+  <thead>
+    <tr>
+      <th>Model Size</th>
+      <th>Efficiency Volume (Liter)</th>
+      <th>Motor Power (KW)</th>
+      <th>Diameter of screw (mm)</th>
+      <th>L/D</th>
+      <th>Motor Power (KW)</th>
+      <th>Throughput Rate (kg/h)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>SJ80</td>
+      <td>300</td>
+      <td>37</td>
+      <td>80</td>
+      <td>36</td>
+      <td>45/55</td>
+      <td>160-220</td>
+    </tr>
+    <tr>
+      <td>SJ100</td>
+      <td>500</td>
+      <td>55</td>
+      <td>100</td>
+      <td>36</td>
+      <td>90/110</td>
+      <td>300-380</td>
+    </tr>
+    <tr>
+      <td>SJ120</td>
+      <td>800</td>
+      <td>90</td>
+      <td>120</td>
+      <td>36</td>
+      <td>132</td>
+      <td>450-480</td>
+    </tr>
+    <tr>
+      <td>SJ140</td>
+      <td>1000</td>
+      <td>110</td>
+      <td>140</td>
+      <td>36</td>
+      <td>160/185</td>
+      <td>500-650</td>
+    </tr>
+    <tr>
+      <td>SJ160</td>
+      <td>1200</td>
+      <td>132</td>
+      <td>160</td>
+      <td>34</td>
+      <td>220/250</td>
+      <td>800-1000</td>
+    </tr>
+    <tr>
+      <td>SJ180</td>
+      <td>1400</td>
+      <td>315</td>
+      <td>180</td>
+      <td>34</td>
+      <td>315</td>
+      <td>1000-1200</td>
+    </tr>
+  </tbody>
+</table>
 </div>
 
 ## Inquire Now
