@@ -6,26 +6,27 @@
   "btnText": "Get a Custom Quote",
 
   "starterKit": {
-    "name": "Starter Kit",
-    "description": "Best option for DIY projects",
+    "name": "Shredder Blades",
+    "description": "Best option for Shredders",
     "price": "$10",
     "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "billingFrequency": "USD / pcs",
     "features": [
-      "Key hardware tools",
-      "Access to guides & tutorials",
-      "Standard support"
+      "Performance: Good wear resistance, good toughness, long working life",
+      "Hardness: HRC56-58 or according customers request",
+      "Treatment: Vacuum heat treatment and Cryogenic treatment process"
+      "Material: D2,SKD11,DC53..."
     ],
-    "purchaseBtnTitle": "Get the Starter Kit",
+    "purchaseBtnTitle": "Get the Shredder Blades",
     "purchaseLink": "#"
   },
 
   "professionalToolbox": {
     "name": "Professional Crusher/Granulator Blades",
-    "description": "Best for large scale uses",
+    "description": "Best for Crusher/Granulator uses",
     "price": "$24.8",
     "cents": ".00",
-    "billingFrequency": "USD / monthly",
+    "billingFrequency": "USD / pcs",
     "features": [
       "Performance: Good wear resistance, good toughness, long working life",
       "Hardness: HRC56-58 or according customers request",
