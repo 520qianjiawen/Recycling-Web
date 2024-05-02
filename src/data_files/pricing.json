@@ -8,7 +8,7 @@
   "starterKit": {
     "name": "Starter Kit",
     "description": "Best option for DIY projects",
-    "price": "$49",
+    "price": "$10",
     "cents": ".00",
     "billingFrequency": "USD / monthly",
     "features": [
@@ -21,18 +21,18 @@
   },
 
   "professionalToolbox": {
-    "name": "Professional Toolbox",
+    "name": "Professional Crusher/Granulator Blades",
     "description": "Best for large scale uses",
-    "price": "$89",
+    "price": "$24.8",
     "cents": ".00",
     "billingFrequency": "USD / monthly",
     "features": [
-      "Premium tool selection",
-      "Priority support",
-      "Exclusive content & deals",
-      "Bulk order discounts"
+      "Performance: Good wear resistance, good toughness, long working life",
+      "Hardness: HRC56-58 or according customers request",
+      "Treatment: Triple tempered, Vacuum heat treatment",
+      "Material: D2,SKD11,DC53..."
     ],
-    "purchaseBtnTitle": "Get the Professional Toolbox",
+    "purchaseBtnTitle": "Get the Crusher/Granulator Blades",
     "purchaseLink": "#"
   }
 }
