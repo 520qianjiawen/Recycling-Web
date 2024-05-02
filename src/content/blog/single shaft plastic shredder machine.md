@@ -55,23 +55,16 @@ For businesses in the recycling industry, investing in a high-quality single-sha
   <table>
   <thead>
     <tr>
-    <th>Technical Parameters</th>
-    <th>XB-L2455</th>
-    <th>XB-L3063</th>
-    <th>XB-L3980</th>
-    <th>XB-L36100</th>
-    <th>XB-L42120</th>
-    <th>XB-L64160</th>
+    <th>Shredder model</th>
+    <th>L2455</th>
+    <th>L3063</th>
+    <th>L3980</th>
+    <th>L36100</th>
+    <th>L42120</th>
+    <th>L64160</th>
   </tr>
-  <tr>
-    <td>Shredder model</td>
-    <td>XB-L2455</td>
-    <td>XB-L3063</td>
-    <td>XB-L3980</td>
-    <td>XB-L36100</td>
-    <td>XB-L42120</td>
-    <td>XB-L64160</td>
-  </tr>
+  </thead>
+  <tbody>
   <tr>
     <td>Shaft diameter (mm)</td>
     <td>300</td>
@@ -82,7 +75,7 @@ For businesses in the recycling industry, investing in a high-quality single-sha
     <td>500</td>
   </tr>
   <tr>
-    <td>Moving knife qty. (pcs)</td>
+    <td>Moving knife qty.(pcs)</td>
     <td>24</td>
     <td>30</td>
     <td>39</td>
@@ -118,13 +111,13 @@ For businesses in the recycling industry, investing in a high-quality single-sha
     <td>132</td>
   </tr>
   <tr>
-    <td>Feeding mouth size (L x W mm)</td>
-    <td>800 x 1300</td>
-    <td>900 x 1300</td>
-    <td>1100 x 1500</td>
-    <td>1300 x 1800</td>
-    <td>1500 x 1900</td>
-    <td>2200 x 2200</td>
+    <td>Feeding mouth size (L*W mm)</td>
+    <td>800*1300</td>
+    <td>900*1300</td>
+    <td>1100*1500</td>
+    <td>1300*1800</td>
+    <td>1500*1900</td>
+    <td>2200*2200</td>
   </tr>
   <tr>
     <td>Host weight (kg)</td>
@@ -136,13 +129,13 @@ For businesses in the recycling industry, investing in a high-quality single-sha
     <td>18000</td>
   </tr>
   <tr>
-    <td>Dimensions (L x W x H mm)</td>
-    <td>3250 x 1500 x 2350</td>
-    <td>3250 x 1750 x 2350</td>
-    <td>4150 x 1900 x 2450</td>
-    <td>4700 x 2550 x 2650</td>
-    <td>5350 x 2850 x 2760</td>
-    <td>5900 x 3050 x 2960</td>
+    <td>Dimensions (L*W*H mm)</td>
+    <td>3250*1500*2350</td>
+    <td>3250*1750*2350</td>
+    <td>4150*1900*2450</td>
+    <td>4700*2550*2650</td>
+    <td>5350*2850*2760</td>
+    <td>5900*3050*2960</td>
   </tr>
   </tbody>
 </table>
