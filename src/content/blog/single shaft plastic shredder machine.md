@@ -55,47 +55,95 @@ For businesses in the recycling industry, investing in a high-quality single-sha
   <table>
   <thead>
     <tr>
-      <th>Model</th>
-      <th>Rotor Diameter</th>
-      <th>Rotor Width</th>
-      <th>Rotating Speed</th>
-      <th>Approx. Output</th>
-      <th>Motor Power</th>
-    </tr>
-  </thead>
-  <tbody>
-    <tr>
-      <td>SWHB600</td>
-      <td>⌀450mm</td>
-      <td>600mm</td>
-      <td>400-600 rpm</td>
-      <td>300 kg/h</td>
-      <td>37KW</td>
-    </tr>
-    <tr>
-      <td>SWHB800</td>
-      <td>⌀500mm</td>
-      <td>800mm</td>
-      <td>400-600 rpm</td>
-      <td>600 kg/h</td>
-      <td>45KW</td>
-    </tr>
-    <tr>
-      <td>SWHB1000</td>
-      <td>⌀600mm</td>
-      <td>1000mm</td>
-      <td>400-600 rpm</td>
-      <td>900 kg/h</td>
-      <td>75KW</td>
-    </tr>
-    <tr>
-      <td>SWHB1200</td>
-      <td>⌀700mm</td>
-      <td>1200mm</td>
-      <td>400-600 rpm</td>
-      <td>1200 kg/h</td>
-      <td>90KW</td>
-    </tr>
+    <th>Technical Parameters</th>
+    <th>XB-L2455</th>
+    <th>XB-L3063</th>
+    <th>XB-L3980</th>
+    <th>XB-L36100</th>
+    <th>XB-L42120</th>
+    <th>XB-L64160</th>
+  </tr>
+  <tr>
+    <td>Shredder model</td>
+    <td>XB-L2455</td>
+    <td>XB-L3063</td>
+    <td>XB-L3980</td>
+    <td>XB-L36100</td>
+    <td>XB-L42120</td>
+    <td>XB-L64160</td>
+  </tr>
+  <tr>
+    <td>Shaft diameter (mm)</td>
+    <td>300</td>
+    <td>300</td>
+    <td>350</td>
+    <td>400</td>
+    <td>400</td>
+    <td>500</td>
+  </tr>
+  <tr>
+    <td>Moving knife qty. (pcs)</td>
+    <td>24</td>
+    <td>30</td>
+    <td>39</td>
+    <td>36</td>
+    <td>42</td>
+    <td>64</td>
+  </tr>
+  <tr>
+    <td>Fixed knife qty. (pcs)</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>2</td>
+    <td>4</td>
+  </tr>
+  <tr>
+    <td>Maximum capacity (kg/h)</td>
+    <td>400</td>
+    <td>550</td>
+    <td>750</td>
+    <td>1200</td>
+    <td>1500</td>
+    <td>5000</td>
+  </tr>
+  <tr>
+    <td>Motor power (KW)</td>
+    <td>22</td>
+    <td>30</td>
+    <td>45</td>
+    <td>55</td>
+    <td>75</td>
+    <td>132</td>
+  </tr>
+  <tr>
+    <td>Feeding mouth size (L x W mm)</td>
+    <td>800 x 1300</td>
+    <td>900 x 1300</td>
+    <td>1100 x 1500</td>
+    <td>1300 x 1800</td>
+    <td>1500 x 1900</td>
+    <td>2200 x 2200</td>
+  </tr>
+  <tr>
+    <td>Host weight (kg)</td>
+    <td>3600</td>
+    <td>4000</td>
+    <td>6000</td>
+    <td>8000</td>
+    <td>9500</td>
+    <td>18000</td>
+  </tr>
+  <tr>
+    <td>Dimensions (L x W x H mm)</td>
+    <td>3250 x 1500 x 2350</td>
+    <td>3250 x 1750 x 2350</td>
+    <td>4150 x 1900 x 2450</td>
+    <td>4700 x 2550 x 2650</td>
+    <td>5350 x 2850 x 2760</td>
+    <td>5900 x 3050 x 2960</td>
+  </tr>
   </tbody>
 </table>
 </div>
