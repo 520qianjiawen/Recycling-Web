@@ -1,39 +1,38 @@
 {
   "title": "Simple, Transparent Pricing",
-  "subTitle": "Boost efficiency with clear, value-driven plans.",
+  "subTitle": "Boost efficiency with ScrewFast's clear, value-driven plans.",
   "badge": "Best value",
   "thirdOption": "Enterprise Solutions?",
   "btnText": "Get a Custom Quote",
 
   "starterKit": {
-    "name": "Shredder Blades",
+    "name": "Starter Kit",
     "description": "Best option for DIY projects",
-    "price": "$10",
+    "price": "$49",
     "cents": ".00",
-    "billingFrequency": "USD / Pcs",
+    "billingFrequency": "USD / monthly",
     "features": [
-      "Performance: Good wear resistance, good toughness, long working life.",
-      "Hardness: HRC56-58 or according customers request.",
-      "Treatment: Vacuum heat treatment and Cryogenic treatment process.",
-      "Material: D2,SKD11,HSS,9CRSI,T10..."
+      "Key hardware tools",
+      "Access to guides & tutorials",
+      "Standard support"
     ],
-    "purchaseBtnTitle": "Get the Shredder Blades",
-    "purchaseLink": "mailto:sales@rumtoo.com"
+    "purchaseBtnTitle": "Get the Starter Kit",
+    "purchaseLink": "#"
   },
 
-  "High_Quality_Knife": {
-    "name": "Professional Crusher/Granulator Blades",
+  "professionalToolbox": {
+    "name": "Professional Toolbox",
     "description": "Best for large scale uses",
-    "price": "$24.8",
+    "price": "$89",
     "cents": ".00",
-    "billingFrequency": "USD / Pcs",
+    "billingFrequency": "USD / monthly",
     "features": [
-      "Performance: Good wear resistance, good toughness, long working life.",
-      "Hardness: HRC56-58 or according customers request.",
-      "Treatment: Triple tempered, Vacuum heat treatment.",
-      "Material: D2,SKD11,DC53..."
+      "Premium tool selection",
+      "Priority support",
+      "Exclusive content & deals",
+      "Bulk order discounts"
     ],
-    "purchaseBtnTitle": "Get the Crusher/Granulator Blades",
-    "purchaseLink": "mailto:sales@rumtoo.com"
+    "purchaseBtnTitle": "Get the Professional Toolbox",
+    "purchaseLink": "#"
   }
 }
