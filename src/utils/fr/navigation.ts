@@ -2,7 +2,7 @@
 const navBarLinks = [
   { name: "Accueil", url: "/fr" },
   { name: "Produits", url: "/fr/products" },
-  { name: "Services", url: "/fr/services" },
+  //{ name: "Services", url: "/fr/services" },
   { name: "Blog", url: "/fr/blog" },
   { name: "Contact", url: "/fr/contact" },
 ];
@@ -19,16 +19,16 @@ const footerLinks = [
   {
     section: "Société",
     links: [
-      { name: "À propos de nous", url: "#" },
+      { name: "À propos de nous", url: "https://www.recyclemachine.net/about-us" },
       { name: "Blog", url: "/fr/blog" },
-      { name: "Carrières", url: "#" },
-      { name: "Clients", url: "#" },
+      { name: "Carrières", url: "https://www.recyclemachine.net/contact-us" },
+      { name: "Clients", url: "https://www.recyclemachine.net/privacy-policy" },
     ],
   },
 ];
 
 const socialLinks = {
-  facebook: "#",
+  facebook: "https://www.facebook.com/recycle.machinery/",
   x: "#",
   github: "https://github.com",
   google: "#",
