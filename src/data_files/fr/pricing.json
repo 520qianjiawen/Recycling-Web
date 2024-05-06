@@ -1,38 +1,38 @@
 {
-  "title": "Tarification Simple et Transparente",
-  "subTitle": "Augmentez l'efficacité avec les plans clairs et axés sur la valeur de ScrewFast.",
-  "badge": "Meilleure valeur",
-  "thirdOption": "Solutions Entreprise?",
-  "btnText": "Obtenez un Devis Personnalisé",
+  "title": "Tarification simple et transparente",
+  "subTitle": "Améliorez l'efficacité grâce à des plans clairs axés sur la valeur.",
+  "badge": "Meilleur prix",
+  "thirdOption": "Solutions d'entreprise ?",
+  "btnText": "Obtenez un devis personnalisé",
 
   "starterKit": {
-    "name": "Kit de Démarrage",
-    "description": "Meilleure option pour les projets de bricolage",
-    "price": "$49",
+    "name": "Lames de déchiqueteuse",
+    "description": "Meilleure option pour les déchiqueteuses",
+    "price": "$10",
     "cents": ".00",
-    "billingFrequency": "USD / mensuel",
+    "billingFrequency": "USD / pièce",
     "features": [
-      "Outils matériels essentiels",
-      "Accès aux guides et tutoriels",
-      "Support standard"
+      "Performance : Bonne résistance à l'usure, bonne ténacité, longue durée de vie",
+      "Dureté : HRC56-58 ou selon les demandes des clients",
+      "Traitement : Traitement thermique sous vide et traitement cryogénique"
     ],
-    "purchaseBtnTitle": "Obtenez le Kit de Démarrage",
-    "purchaseLink": "#"
+    "purchaseBtnTitle": "Obtenez les lames de déchiqueteuse",
+    "purchaseLink": "mailto:sales@rumtoo.com"
   },
 
   "professionalToolbox": {
-    "name": "Boîte à Outils Professionnelle",
-    "description": "Idéale pour les utilisations à grande échelle",
-    "price": "$89",
+    "name": "Lames professionnelles pour broyeurs/granulateurs",
+    "description": "Idéal pour les broyeurs/granulateurs",
+    "price": "$24.8",
     "cents": ".00",
-    "billingFrequency": "USD / mensuel",
+    "billingFrequency": "USD / pièce",
     "features": [
-      "Sélection d'outils premium",
-      "Support prioritaire",
-      "Contenu et offres exclusifs",
-      "Remises sur les commandes en gros"
+      "Performance : Bonne résistance à l'usure, bonne ténacité, longue durée de vie",
+      "Dureté : HRC56-58 ou selon les demandes des clients",
+      "Traitement : Triple revenu, traitement thermique sous vide",
+      "Matériau : D2, SKD11, DC53..."
     ],
-    "purchaseBtnTitle": "Obtenez la Boîte à Outils Professionnelle",
-    "purchaseLink": "#"
+    "purchaseBtnTitle": "Obtenez les lames de broyeurs/granulateurs",
+    "purchaseLink": "mailto:sales@rumtoo.com"
   }
 }
