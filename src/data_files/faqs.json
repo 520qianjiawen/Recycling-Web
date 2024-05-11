@@ -1,29 +1,29 @@
 {
-  "subTitle": "Posez-nous toutes vos questions sur notre marque et nos produits, et obtenez des réponses factuelles.",
+  "subTitle": "Ask us all your questions about our brand and our products, and get factual answers.",
   "faqs": [
     {
-      "question": "Quels modèles de machines de recyclage du plastique proposez-vous ?",
-      "answer": "Notre gamme comprend une variété de machines de recyclage du plastique telles que les lignes de recyclage des bouteilles en PET, les machines de recyclage des films PE/PP et les machines de granulation du plastique. Chaque modèle est conçu pour répondre à différents besoins de recyclage, garantissant efficacité et fiabilité."
+      "question": "What kind of plastic recycling machines do you offer?",
+      "answer": "Our range includes a variety of plastic recycling machines such as PET bottle recycling lines, PE/PP film recycling machines and plastic pelletizing machines. Each model is designed to meet different recycling needs, guaranteeing efficiency and reliability."
     },
     {
-      "question": "Puis-je mettre à niveau ma machine de recyclage actuelle vers un modèle plus récent ?",
-      "answer": "Oui, les mises à niveau sont possibles et recommandées pour garder vos opérations modernes et efficaces. Nous fournissons des kits de mise à niveau et un support professionnel pour vous aider à passer de votre configuration actuelle à la dernière technologie disponible dans notre gamme de produits."
+      "question": "Can I upgrade my current recycling machine to a newer model?",
+      "answer": "Yes, upgrades are possible and recommended to keep your operations modern and efficient. We provide upgrade kits and professional support to help you move from your current configuration to the latest technology available in our product range."
     },
     {
-      "question": "Quels sont les avantages de l'achat en gros de machines de recyclage auprès de votre entreprise ?",
-      "answer": "Les clients qui commandent en gros bénéficient de remises substantielles, de garanties prolongées et de services après-vente personnalisés. Les détails varient en fonction de la taille de la commande et des modèles de machines, veuillez donc contacter notre équipe commerciale pour une proposition personnalisée."
+      "question": "What are the advantages of buying recycling machines in bulk from your company?",
+      "answer": "Bulk order customers benefit from substantial discounts, extended warranties and personalized after-sales services. Details vary according to order size and machine models, so please contact our sales team for a personalized proposal."
     },
     {
-      "question": "Quel type de support client fournissez-vous pour vos machines de recyclage ?",
-      "answer": "Tous nos clients bénéficient d'un support complet, comprenant des conseils d'installation, une formation opérationnelle et un dépannage. Les packages de niveau supérieur, tels que notre plan de support Premium, offrent une assistance technique 24h/24 et 7j/7 ainsi que des visites d'entretien régulières."
+      "question": "What kind of customer support do you provide for your recycling machines?",
+      "answer": "All our customers benefit from comprehensive support, including installation advice, operational training and troubleshooting. Higher-level packages, such as our Premium support plan, offer 24/7 technical assistance and regular maintenance visits."
     },
     {
-      "question": "À quelle fréquence les manuels de vos machines et les instructions d'utilisation sont-ils mis à jour ?",
-      "answer": "Nous mettons régulièrement à jour nos manuels de machines et nos instructions d'utilisation pour intégrer les dernières consignes de sécurité, les améliorations technologiques et les conseils de dépannage. Toutes les mises à jour sont mises en ligne et disponibles gratuitement pour nos clients actuels."
+      "question": "How often are your machine manuals and operating instructions updated?",
+      "answer": "We regularly update our machine manuals and operating instructions to incorporate the latest safety precautions, technological improvements and troubleshooting tips. All updates are posted online and available free of charge to our existing customers."
     },
     {
-      "question": "Votre entreprise fournit-elle des solutions clés en main pour les projets de recyclage industriels ?",
-      "answer": "Oui, nous nous spécialisons dans la fourniture de solutions clés en main complètes pour les projets de recyclage à l'échelle industrielle. Cela comprend l'évaluation du projet, la conception du système, l'installation des machines et la formation opérationnelle, adaptés à vos exigences spécifiques."
+      "question": "Does your company provide turnkey solutions for industrial recycling projects?",
+      "answer": "Yes, we specialize in providing complete turnkey solutions for industrial-scale recycling projects. This includes project assessment, system design, machine installation and operational training, tailored to your specific requirements."
     }
   ]
 }
