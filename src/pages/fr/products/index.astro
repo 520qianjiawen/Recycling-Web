@@ -1,11 +1,11 @@
 ---
 // Importing necessary components
 import MainLayout from "@/layouts/MainLayout.astro";
-import PrimaryCTA from "@/components/ui/buttons/PrimaryCTA.astro";
-import CardSmall from "@/components/ui/cards/CardSmall.astro";
-import CardWide from "@/components/ui/cards/CardWide.astro";
-import FeaturesStatsAlt from "@/components/sections/features/FeaturesStatsAlt.astro";
-import TestimonialsSectionAlt from "@/components/sections/testimonials/TestimonialsSectionAlt.astro";
+import PrimaryCTA from "@components/ui/buttons/PrimaryCTA.astro";
+import CardSmall from "@components/ui/cards/CardSmall.astro";
+import CardWide from "@components/ui/cards/CardWide.astro";
+import FeaturesStatsAlt from "@components/sections/features/FeaturesStatsAlt.astro";
+import TestimonialsSectionAlt from "@components/sections/testimonials/TestimonialsSectionAlt.astro";
 
 // Importing necessary functions from Astro
 import { getCollection } from "astro:content";
@@ -64,18 +64,17 @@ const testimonials = [
   structuredData={{
     "@context": "https://schema.org",
     "@type": "WebPage",
-    "@id": "https://www.recyclemachine.net/products",
-    url: "https://www.recyclemachine.net/products",
-    name: "Machines de recyclage du plastique | Rumtoo",
+    "@id": "https://screwfast.uk/products",
+    url: "https://screwfast.uk/products",
+    name: "Hardware Tools | ScrewFast",
     description:
-      "Découvrez l'efficacité et la durabilité des machines de recyclage du plastique EcoCycle, conçues pour un avenir plus vert.
-",
+      "Explore the durability and precision of ScrewFast tools, designed for both professionals and enthusiasts.",
     isPartOf: {
       "@type": "WebSite",
-      url: "https://www.recyclemachine.net",
-      name: "Rumtoo",
+      url: "https://screwfast.uk",
+      name: "ScrewFast",
       description:
-        "Rumtoo propose des machines de recyclage de plastique haut de gamme et des services de construction experts pour tous vos projets.",
+        "ScrewFast offers top-tier hardware tools and expert construction services to meet all your project needs.",
     },
     inLanguage: "en-US",
   }}
