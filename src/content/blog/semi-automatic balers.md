@@ -1,5 +1,5 @@
 ---
-title: "Semi-Automatic Balers:"
+title: "Semi-Automatic Balers"
 description: "Explore our range of semi-automatic balers for effective waste compaction and management. Find the perfect solution for your business needs."
 author: "ASG"
 authorImage: "@/images/blog/brad.avif"
