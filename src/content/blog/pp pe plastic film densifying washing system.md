@@ -55,7 +55,6 @@ A storage tank for the clean, dry pieces of plastic film.
 ### Plastic Pelletizing Machine:
 The final step in plastic film recycling, and perhaps the most important, the clean film needs to be processed into plastic pellets before it can be used in production. To accomplish this, we offer a specialized plastic film water ring pelletizer system that produces beautiful, round plastic pellets.
 
-
 ## Show Photos
 ![pp pe plastic film densifying washing system-02](/images/pp_pe_plastic_film_densifying_washing_system-02.webp)
 ![pp pe plastic film densifying washing system](/images/pp_pe_plastic_film_densifying_washing_system.webp)
