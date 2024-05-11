@@ -100,7 +100,6 @@ The final step in plastic film recycling, and perhaps the most important, the cl
       <td>SKD11</td>
       <td>SKD11</td>
       <td>SKD11</td>
-      <td>SKD11</td>
     </tr>
     <tr>
       <td>Capacity(kg/h)</td>
