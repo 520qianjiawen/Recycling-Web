@@ -1,23 +1,23 @@
 ---
 // Import the necessary components
 import MainLayout from "@/layouts/MainLayout.astro";
-import HeroSection from "@components/sections/landing/HeroSection.astro";
-import HeroSectionAlt from "@components/sections/landing/HeroSectionAlt.astro";
-import ClientsSection from "@components/sections/landing/ClientsSection.astro";
-import FeaturesGeneral from "@components/sections/features/FeaturesGeneral.astro";
-import FeaturesNavs from "@components/sections/features/FeaturesNavs.astro";
-import TestimonialsSection from "@components/sections/testimonials/TestimonialsSection.astro";
-import PricingSection from "@components/sections/pricing/PricingSection.astro";
-import FAQ from "@components/sections/FAQ.astro";
-import AnnouncementBanner from "@components/ui/banners/AnnouncementBanner.astro";
-import heroImage from "@images/hero-image.avif";
-import faqs from "@data/fr/faqs.json";
-import features from "@data/fr/features.json";
-import pricing from "@data/fr/pricing.json";
-import featureImage from "@images/features-image.avif";
-import construction from "@images/construction-image.avif";
-import tools from "@images/automated-tools.avif";
-import dashboard from "@images/dashboard-image.avif";
+import HeroSection from "@/components/sections/landing/HeroSection.astro";
+import HeroSectionAlt from "@/components/sections/landing/HeroSectionAlt.astro";
+import ClientsSection from "@/components/sections/landing/ClientsSection.astro";
+import FeaturesGeneral from "@/components/sections/features/FeaturesGeneral.astro";
+import FeaturesNavs from "@/components/sections/features/FeaturesNavs.astro";
+import TestimonialsSection from "@/components/sections/testimonials/TestimonialsSection.astro";
+import PricingSection from "@/components/sections/pricing/PricingSection.astro";
+import FAQ from "@/components/sections/FAQ.astro";
+import AnnouncementBanner from "@/components/ui/banners/AnnouncementBanner.astro";
+import heroImage from "@/images/wet plastic grinding.webp";
+import faqs from "@/data_files/fr/faqs.json";
+import features from "@/data_files/fr/features.json";
+import pricing from "@/data_files/fr/pricing.json";
+import featureImage from "@/images/hero-image.webp";
+import construction from "@/images/Thermal_dryer.webp";
+import tools from "@/images/Zig-Zag_Air_Classifier.webp";
+import dashboard from "@/images/Belt_conveyors.webp";
 import { getRelativeLocaleUrl } from 'astro:i18n';
 
 const avatarSrcs: Array<string> = [
@@ -31,16 +31,16 @@ const avatarSrcs: Array<string> = [
 <MainLayout lang="fr">
   <AnnouncementBanner
     btnId="dismiss-button"
-    btnTitle="Découvrez ScrewFast sur GitHub"
-    url="https://github.com/"
+    btnTitle="Découvrez plus de machines de recyclage"
+    url="https://www.recyclingmachine.xyz"
   />
 
   <HeroSection
-    title=`Équipez vos projets avec <span class="text-yellow-500 dark:text-yellow-400">ScrewFast</span>`
+    title=`Équipez vos projets avec <span class="text-yellow-500 dark:text-yellow-400">Rumtoo</span>`
     subTitle="Outils matériels de haute qualité et services de construction experts pour tous les besoins en projet."
     primaryBtn="Commencez à explorer"
     primaryBtnURL={getRelativeLocaleUrl("fr", "products")}
-    secondaryBtn="Contacter l'équipe commerciale"
+    secondaryBtn="Contactez l'équipe commerciale"
     secondaryBtnURL={getRelativeLocaleUrl("fr", "contact")}
     withReview={true}
     avatars={avatarSrcs}
@@ -48,7 +48,7 @@ const avatarSrcs: Array<string> = [
     starCount={4}
     reviews=`À partir de plus de <span class="font-bold">12,8k</span> avis`
     src={heroImage}
-    alt="Pile de boîtes de produits ScrewFast contenant des outils matériels assortis"
+    alt="Un déchiqueteur de plastique industriel, probablement utilisé à des fins de recyclage. Les goulottes bleues et blanches alimentent le matériau plastique dans le déchiqueteur, qui le réduit ensuite en plus petits morceaux. Ces morceaux peuvent ensuite être traités davantage pour créer de nouveaux produits en plastique."
   />
 
   <ClientsSection
@@ -58,9 +58,9 @@ const avatarSrcs: Array<string> = [
 
   <FeaturesGeneral
     title="Répondre aux exigences de l'industrie"
-    subTitle="Chez ScrewFast, nous relevons les défis uniques rencontrés dans les secteurs du matériel et de la construction. Des outils de pointe aux services experts, nous sommes déterminés à vous aider à surmonter les obstacles et à atteindre vos objectifs."
+    subTitle="Chez Rumtoo Machinery, nous nous engageons à résoudre les défis uniques rencontrés dans le monde du recyclage du plastique. Des équipements de recyclage de pointe aux services d'experts, nous sommes déterminés à vous aider à surmonter les obstacles et à atteindre vos objectifs."
     src={featureImage}
-    alt="Produits ScrewFast dans des boîtes flottantes"
+    alt="Une ligne de lavage de plastique à l'échelle industrielle. Ce type de machinerie est utilisé pour recycler les déchets plastiques en les nettoyant, triant et traitant. Les différents composants visibles dans l'image comprennent probablement des broyeurs, des convoyeurs, des cuves de lavage et des systèmes de séparation. La palette de couleurs orange et grise est courante dans l'équipement industriel."
     features={features}
   />
 
@@ -70,10 +70,10 @@ const avatarSrcs: Array<string> = [
       {
         heading: "Outils de pointe",
         content:
-          "Optimisez vos projets avec les outils de pointe de ScrewFast. Faites l'expérience d'une efficacité accrue dans la gestion de la construction avec nos solutions automatisées sophistiquées.",
+          "Nos machines de recyclage de pointe sont conçues pour être efficaces et polyvalentes, traitant facilement différents types et volumes de plastique.",
         svg: "tools",
         src: tools,
-        alt: "Équipement lourd jaune et noir sur un champ d'herbe brune",
+        alt: "représentent un classificateur d'air Zig-Zag, une machine conçue pour séparer les matériaux en fonction de leur poids et de leurs caractéristiques aérodynamiques.",
         first: true,
       },
       {
@@ -97,41 +97,41 @@ const avatarSrcs: Array<string> = [
   />
 
   <TestimonialsSection
-    title="Accélérez vos projets"
-    subTitle="Chez ScrewFast, nous assurons un démarrage rapide avec une configuration de compte instantanée. Découvrez la vitesse de la construction redéfinie."
+    title="Accélérer vos projets grâce à un recyclage efficace du plastique"
+    subTitle="Chez Rumtoo Machinery, nous vous aidons à atteindre rapidement vos objectifs de développement durable et à rationaliser vos opérations grâce à nos machines de recyclage du plastique à la pointe de la technologie. Mettez en place un système en boucle fermée et faites l'expérience de la rapidité et de l'efficacité du recyclage du plastique redéfini."
     testimonials={[
       {
         content:
-          "ScrewFast a considérablement augmenté l'efficacité de notre projet. La configuration a été instantanée et leurs temps de réponse rapides sont phénoménaux. Vraiment un changement de jeu dans le support matériel et de construction !",
+          "Les solutions de recyclage du plastique ont complètement transformé notre processus de production. La mise en œuvre d'un système en boucle fermée a non seulement permis de réduire nos déchets, mais aussi de diminuer considérablement les coûts de production. L'équipe d'assistance a été fantastique, assurant une intégration rapide et sans heurts !",
         author: "Samantha Ruiz",
         role: "Directrice des opérations | ConstructIt Inc.",
         avatarSrc:
           "https://images.unsplash.com/photo-1593104547489-5cfb3839a3b5?q=80&w=1453&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D8&auto=format&fit=facearea&facepad=2&w=320&h=320&q=80",
       },
     ]}
-    statistics={[
+statistics={[
       {
-        count: "70k+",
+        count: "95%",
         description:
-          "clients équipés — des bricoleurs aux grandes entreprises de construction",
+          "des déchets plastiques peuvent être efficacement recyclés en utilisant nos machines avancées",
       },
       {
-        count: "35%",
+        count: "50%",
         description:
-          "hausse de l'efficacité des projets avec les outils et services de ScrewFast",
+          "de réduction des déchets en décharge grâce au recyclage des plastiques",
       },
       {
-        count: "15,3%",
+        count: "30%",
         description:
-          "réduction des coûts de maintenance rapportée par des clients à long terme",
+          "de coûts de production en moins par rapport à l'utilisation de matières plastiques vierges",
       },
       {
         count: "2x",
-        description:
-          "assemblage plus rapide grâce à des solutions de fixation innovantes",
+        description: "des temps de traitement plus rapides avec nos machines à haute efficacité",
       },
     ]}
   />
+
 
   <PricingSection pricing={pricing} />
 
@@ -139,7 +139,7 @@ const avatarSrcs: Array<string> = [
 
   <HeroSectionAlt
     title="Construisons ensemble"
-    subTitle="ScrewFast est un modèle open source, méticuleusement conçu avec les frameworks Astro, Tailwind CSS et Preline UI."
-    url="https://github.com/mearashadowfax/ScrewFast"
+    subTitle="Un fabricant professionnel de machines de recyclage du plastique en Chine."
+    url="https://www.recyclingmachine.xyz"
   />
 </MainLayout>
