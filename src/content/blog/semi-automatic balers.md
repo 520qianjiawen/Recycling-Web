@@ -12,7 +12,7 @@ tags: ["balers", "waste management", "recycling equipment", "semi automatic bale
 ---
 When it comes to recycling and compressing loose materials like plastic film, PET bottles, plastic pallets, waste paper, cartons, cardboards, and trims/scraps, the Large, Medium, and Small sized Semi-Automatic Balers with Closed Gate offer a reliable and efficient solution. These specialized balers are designed to streamline the recycling process, making it easier for businesses and organizations to manage their waste while contributing to a more sustainable future.
 
-![semi automatic balers-03](/images/semi_automatic_balers-03)
+![semi automatic balers-03](/images/semi_automatic_balers-03.webp)
 
 ## Features
 
