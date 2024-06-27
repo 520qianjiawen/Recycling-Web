@@ -1,39 +1,39 @@
 ---
-title: "Industrial Plastic Crusher  "
-description: "Plastic crusher are designed to deal with a wide variety of plastic materials in an efficient way with a user-friendly operation. Whether you are a producer or professio"
+title: "Broyeur industriel de plastique"
+description: "Les broyeurs de plastique sont conçus pour traiter une grande variété de matériaux plastiques de manière efficace et avec une utilisation conviviale. Que vous soyez un producteur ou un professionnel"
 author: "ASG"
 authorImage: "@/images/blog/brad.avif"
 authorImageAlt: "Avatar Description"
 pubDate: 2024-02-06
 cardImage: "@/images/blog/industrial plastic crusher.webp"
-cardImageAlt: "The image shows an industrial plastic crusher machine. This type of equipment is typically used in recycling processes to break down plastic materials into smaller pieces, which can then be processed further. The machine features a robust design with a green and yellow cylindrical component—likely the crushing mechanism—connected to a white and gray housing that contains the mechanical parts and possibly the control system. The entire assembly is mounted on a sturdy green base, ensuring stability during operation."
+cardImageAlt: "L'image montre une machine industrielle de broyage de plastique. Ce type d'équipement est généralement utilisé dans les processus de recyclage pour décomposer les matériaux plastiques en morceaux plus petits, qui peuvent ensuite être traités davantage. La machine présente un design robuste avec un composant cylindrique vert et jaune - probablement le mécanisme de broyage - connecté à un carter blanc et gris contenant les pièces mécaniques et possiblement le système de contrôle. L'ensemble de l'assemblage est monté sur une base verte solide, assurant la stabilité pendant le fonctionnement."
 readTime: 4
-tags: ["crusher", "plastic crusher", "industrial crusher", "grinder", "plastic grinder" ]
+tags: ["broyeur", "broyeur de plastique", "broyeur industriel", "granulateur", "granulateur plastique"]
 ---
-Our standard heavy-duty plastic granulators, also known as plastic crushers, are essential machines in the plastic recycling industry. These specially designed granulators are extremely durable and have the unique ability to quickly and efficiently cut various plastic streams into small, uniform flakes or regrinds.
+Nos Broyeur plastiques standard robustes, également connus sous le nom de broyeurs de plastique, sont des machines essentielles dans l'industrie du recyclage du plastique. Ces Broyeur spécialement conçus sont extrêmement durables et possèdent la capacité unique de découper rapidement et efficacement divers flux de plastiques en petits flocons uniformes ou en regranulés.
 
-As one of our most popular plastic recycling machines, these granulators are integrated into many of our complete recycling solutions, including our popular PET bottle washing lines and plastic film recycling lines.
+En tant que l'une de nos machines de recyclage du plastique les plus populaires, ces Broyeur sont intégrés dans de nombreuses de nos solutions de recyclage complètes, y compris nos lignes de lavage de bouteilles en PET populaires et nos lignes de recyclage de films plastiques.
 
-![plastic crusher-02](/images/plastic_crusher-02.webp)
+![Broyeur de Plastique-02](/images/plastic_crusher-02.webp)
 
-## Working Principle
+## Principe de Fonctionnement
 
-At the heart of our plastic granulator is an open rotor mounted with heavy-duty knives arranged in either a double-scissor cut or V-shape array, based on your requirements. As the rotor spins at high speeds, the rotor knives come into contact with stationary knives mounted within the cutting chamber, continuously cutting the material until it is small enough to pass through a screen filter.
-Our filter screens generally range from 10mm to 100mm but can be customized according to your requirements.
-Our standard plastic granulator houses 12 rotor knives and 3 stationary knives. All knives are made of ultra-durable D2 (equivalent to SDK11) high-carbon, high-chromium steel, ensuring the longest usage times before requiring sharpening. All knives are easily adjustable with hydraulic-assisted access to the cutting chamber.
+Au cœur de notre Broyeur de plastique se trouve un rotor ouvert monté avec des couteaux robustes disposés en coupe double ciseaux ou en forme de V, selon vos besoins. Lorsque le rotor tourne à haute vitesse, les couteaux du rotor entrent en contact avec les couteaux fixes montés dans la chambre de coupe, coupant continuellement le matériau jusqu'à ce qu'il soit suffisamment petit pour passer à travers un filtre à écran.
+Nos écrans filtrants varient généralement de 10 mm à 100 mm, mais peuvent être personnalisés selon vos exigences.
+Notre granulateur de plastique standard comprend 12 couteaux rotatifs et 3 couteaux fixes. Tous les couteaux sont fabriqués en acier D2 ultra-durable (équivalent à SDK11) à haute teneur en carbone et en chrome, garantissant les plus longues durées d'utilisation avant de nécessiter un affûtage. Tous les couteaux sont facilement réglables grâce à un accès hydraulique assisté à la chambre de coupe.
 
 ## Applications
-This general-purpose plastic granulator can be used in a variety of plastic recycling applications, including but not limited to grinding plastic bottles, films, and various small rigid plastics.
-For added convenience, we also offer wet plastic granulator machines with additional rubber sealing and a water inlet hose attached, allowing a constant stream of water to be sprayed while the plastic is being cut. This helps clean the plastic scrap while keeping the blades cool during operation.
+Ce Broyeur plastique polyvalent peut être utilisé dans une variété d'applications de recyclage du plastique, y compris, mais sans s'y limiter, le broyage de bouteilles en plastique, de films et de divers petits plastiques rigides.
+Pour plus de commodité, nous proposons également des machines de granulation plastique humide avec des joints en caoutchouc supplémentaires et un tuyau d'entrée d'eau attaché, permettant un flux constant d'eau à être pulvérisé pendant la coupe du plastique. Cela aide à nettoyer les déchets plastiques tout en gardant les lames fraîches pendant le fonctionnement.
 
-## Plastic Granulators VS Shredder Machines
-Plastic recycling granulators are high-speed machines capable of cutting smaller-sized, thin plastics into flakes and fine regrinds. Due to their fast rotation speeds, operators must be careful not to have hard contaminants such as metals or rocks in the input stream, as metals like nuts and bolts can easily damage the machine, including chipping the cutting blades. To ensure metals are not present, we suggest adding a magnetic suspension separator above the conveyor system.
-Plastic shredder machines, while also used for size reduction in plastic recycling, are low-speed, more robust machines capable of cutting large pieces of plastic. They are also more forgiving with contaminants. Therefore, plastic shredders are often used to precut large pieces of plastic into smaller sizes suitable for use in plastic granulators. The granulator then further reduces the plastic into flakes or regrinds.
+## Broyeur de Plastique VS Machines de Déchiquetage
+Les Broyeur de recyclage plastique sont des machines à haute vitesse capables de découper des plastiques de petite taille et fins en flocons et en regranulés fins. En raison de leur vitesse de rotation rapide, les opérateurs doivent faire attention à ne pas avoir de contaminants durs tels que des métaux ou des pierres dans le flux d'entrée, car des métaux comme des écrous et des boulons peuvent facilement endommager la machine, y compris ébrécher les lames de coupe. Pour garantir l'absence de métaux, nous suggérons d'ajouter un séparateur magnétique en suspension au-dessus du système de convoyeur.
+Les déchiqueteuses de plastique, bien que également utilisées pour la réduction de taille dans le recyclage du plastique, sont des machines à basse vitesse et plus robustes capables de découper de grandes pièces de plastique. Elles sont également plus tolérantes aux contaminants. Par conséquent, les déchiqueteuses de plastique sont souvent utilisées pour prédécouper de grandes pièces de plastique en tailles plus petites, adaptées à l'utilisation dans les Broyeur plastiques. Le granulateur réduit ensuite davantage le plastique en flocons ou en regranulés.
 
-## Show Photos
+## Afficher les Photos
 
-![plastic crusher-01](/images/plastic_crusher-01.webp)
-![plastic crusher-01](/images/plastic_crusher_blade.webp)
+![Broyeur de Plastique-01](/images/plastic_crusher-01.webp)
+![Broyeur de Plastique](/images/plastic_crusher_blade.webp)
 
 
 <div class="scrollable-table-container">
