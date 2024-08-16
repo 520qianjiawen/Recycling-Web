@@ -1,37 +1,43 @@
+const express = require('express');
 const nodemailer = require('nodemailer');
+const app = express();
 
-module.exports = async (req, res) => {
-  if (req.method === 'POST') {
-    // 创建 Nodemailer 传输器配置，用于连接 Hostinger 的 SMTP 服务器
-    let transporter = nodemailer.createTransport({
-      host: 'smtp.hostinger.com', // Hostinger SMTP 服务器地址
-      port: 465, // 使用 465 端口进行 SSL 连接
-      secure: true, // 如果端口为 465，设为 true
-      auth: {
-        user: 'cavon@recycling.top', // 直接硬编码你的 Hostinger 邮箱账户
-        pass: '912..Cavon' // 直接硬编码你的邮箱密码
-      }
-    });
+// 配置发件服务器
+let transporter = nodemailer.createTransport({
+  host: 'smtp.hostinger.com',
+  port: 465,
+  secure: true,
+  auth: {
+    user: 'cavon@recycling.top',
+    pass: '912..Cavon',
+  },
+});
 
-    // 设置邮件内容
-    const mailOptions = {
-      from: 'cavon@recycling.top', // 发件人地址
-      to: 'sales@rumtoo.com', // 收件人地址
-      subject: '新的表单提交', // 邮件主题
-      text: `收到来自姓名: ${req.body.firstName} 的表单提交` // 邮件正文
-    };
+app.use(express.json());
+app.use(express.urlencoded({ extended: false }));
 
-    // 发送邮件
-    transporter.sendMail(mailOptions, function(error, info) {
-      if (error) {
-        console.log(error);
-        res.status(500).send("邮件发送失败");
-      } else {
-        console.log('邮件发送成功: ' + info.response);
-        res.status(200).send("邮件已发送");
-      }
-    });
-  } else {
-    res.status(405).send('只接受 POST 请求');
-  }
-};
+// 处理表单提交并发送邮件
+app.post('/send-email', (req, res) => {
+  const { firstName, lastName, email, phone, details } = req.body;
+
+  // 邮件内容
+  let mailOptions = {
+    from: '"Company Name" <cavon@recycling.top>',
+    to: email, // 将邮件发送给提交表单的用户
+    subject: 'Thank you for contacting us',
+    text: `Dear ${firstName} ${lastName},\n\nThank you for your inquiry. We have received the following details:\n\n${details}\n\nWe will get back to you shortly.\n\nBest regards,\nCompany Name`,
+    html: `<p>Dear ${firstName} ${lastName},</p><p>Thank you for your inquiry. We have received the following details:</p><p><b>${details}</b></p><p>We will get back to you shortly.</p><p>Best regards,<br>Company Name</p>`,
+  };
+
+  // 发送邮件
+  transporter.sendMail(mailOptions, (error, info) => {
+    if (error) {
+      return res.status(500).send('Error occurred: ' + error.message);
+    }
+    res.status(200).send('Message sent: ' + info.messageId);
+  });
+});
+
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
