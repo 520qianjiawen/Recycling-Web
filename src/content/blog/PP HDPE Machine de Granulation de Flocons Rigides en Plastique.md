@@ -12,7 +12,7 @@ tags: ["machine de granulation PP HDPE", "équipement de recyclage des plastique
 ---
 Ce système de granulation à deux étages pour flocons de HDPE comprend deux extrudeuses à vis unique et combine les fonctions d’alimentation, de plastification et de granulation en une seule étape. Le produit final obtenu par cette machine de granulation est constitué de granulés de haute qualité (voir images supplémentaires ci-dessous) qui peuvent être directement utilisés dans les machines de moulage par injection plastique ou dans d’autres applications.
 
-![Machine de Déchiquetage de Plastique à Arbre Unique-04](/images/single_shaft_shredder-04.webp)
+![PP HDPE Machine de Granulation de Flocons Rigides en Plastique-02](/images/pp_hdpe_rigid_plastic_flake_pelletizing_system-2.webp)
 
 ## Principe De Fonctionnement
 **Alimentation** : Les flocons sont introduits dans les extrudeuses par des convoyeurs à vis contrôlés par un variateur de fréquence (VFD). Le système d’alimentation VFD s’arrête automatiquement lorsque le courant électrique dans l’extrudeuse est élevé et ne reprend que lorsque le courant électrique revient à des paramètres normaux.
@@ -25,9 +25,9 @@ Ce système de granulation à deux étages pour flocons de HDPE comprend deux ex
 
 ## Afficher les Photos
 
-![Machine de Déchiquetage de Plastique à Arbre Unique-06](/images/PP_HDPE_Rigid_Plastic_Flake_Pelletizing_System_2.webp)
-![Machine de Déchiquetage de Plastique à Arbre Unique-06](/images/PP_HDPE_Rigid_Plastic_Flake_Pelletizing_System_6.webp)
-![Machine de Déchiquetage de Plastique à Arbre Unique-07](/images/PP_HDPE_Rigid_Plastic_Flake_Pelletizing_System_7.webp)
+
+![PP HDPE Machine de Granulation de Flocons Rigides en Plastique-06](/images/pp_hdpe_rigid_plastic_flake_pelletizing_system-6.webp)
+![PP HDPE Machine de Granulation de Flocons Rigides en Plastique-07](/images/pp_hdpe_rigid_plastic_flake_pelletizing_system-7.webp)
 
 
 <div class="scrollable-table-container">
