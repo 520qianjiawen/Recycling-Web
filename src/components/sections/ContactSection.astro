@@ -32,27 +32,28 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
         </h2>
 
         <form id="contact-form" action="/send-email" method="POST">
-          <div class="grid gap-4">
-            <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
-              <TextInput id="hs-firstname-contacts" label="First Name" name="hs-firstname-contacts" />
-              <TextInput id="hs-lastname-contacts" label="Last Name" name="hs-lastname-contacts" />
-            </div>
-            <EmailContactInput id="hs-email-contacts" />
-            <PhoneInput id="hs-phone-number" />
-            <TextAreaInput id="hs-about-contacts" label="Details" name="hs-about-contacts" />
-          </div>
+  <div class="grid gap-4">
+    <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
+      <TextInput id="hs-firstname-contacts" label="First Name" name="hs-firstname-contacts" />
+      <TextInput id="hs-lastname-contacts" label="Last Name" name="hs-lastname-contacts" />
+    </div>
+    <EmailContactInput id="hs-email-contacts" />
+    <PhoneInput id="hs-phone-number" />
+    <TextAreaInput id="hs-about-contacts" label="Details" name="hs-about-contacts" />
+  </div>
 
-          <div class="mt-4 grid">
-            <AuthBtn title="Send Message" id="submit-btn" disabled />
-          </div>
+  <div class="mt-4 grid">
+    <button id="submit-btn" type="submit">
+      Send Message
+    </button>
+  </div>
 
-          <div class="mt-3 text-center">
-            <p class="text-sm text-neutral-600 dark:text-neutral-400">
-              {formSubTitle}
-            </p>
-          </div>
-        </form>
-      </div>
+  <div class="mt-3 text-center">
+    <p class="text-sm text-neutral-600 dark:text-neutral-400">
+      {formSubTitle}
+    </p>
+  </div>
+</form>
 
       <!-- Other Contact Methods -->
       <div class="divide-y divide-neutral-300 dark:divide-neutral-700">
