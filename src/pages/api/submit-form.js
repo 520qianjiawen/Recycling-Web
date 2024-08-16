@@ -7,12 +7,12 @@ export async function post({ request }) {
 
   // 配置邮件传输服务
   const transporter = nodemailer.createTransport({
-    host: 'smtp.hostinger.com', // 使用你的SMTP服务器
-    port: 465,
+    host: process.env.SMTP_HOST,
+    port: process.env.SMTP_PORT,
     secure: true,
     auth: {
-      user: 'cavon@recycling.top', // 你的邮箱地址
-      pass: '912..Cavon', // 你的邮箱密码
+      user: process.env.SMTP_USER,
+      pass: process.env.SMTP_PASS,
     },
   });
 
