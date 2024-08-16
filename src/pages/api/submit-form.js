@@ -1,10 +1,14 @@
 import nodemailer from 'nodemailer';
 
-export async function post({ request }) {
+export async function POST({ request }) {
   try {
-    // 解析请求体中的数据
-    const data = await request.json();
-    const { firstName, lastName, email, phoneNumber, details } = data;
+    // 解析表单数据
+    const formData = await request.formData();
+    const firstName = formData.get('firstname');
+    const lastName = formData.get('lastname');
+    const email = formData.get('email');
+    const phoneNumber = formData.get('phone');
+    const details = formData.get('details');
 
     // 检查是否所有必需的数据都存在
     if (!firstName || !lastName || !email || !phoneNumber || !details) {
@@ -29,8 +33,8 @@ export async function post({ request }) {
 
     // 定义邮件选项
     const mailOptions = {
-      from: `"Your Website" <${process.env.SMTP_USER}>`, // 发件人
-      to: 'sales@recyclemachine.net', // 收件人
+      from: `"Your Website" <${process.env.SMTP_USER}>`,
+      to: 'sales@recyclemachine.net',
       subject: 'New Contact Form Submission',
       text: `You have a new contact form submission from:
       Name: ${firstName} ${lastName}
@@ -42,20 +46,21 @@ export async function post({ request }) {
     // 发送邮件
     await transporter.sendMail(mailOptions);
 
-    // 返回成功响应
-    return new Response(JSON.stringify({ success: true }), {
-      status: 200,
+    // 重定向到成功页面
+    return new Response(null, {
+      status: 302,
       headers: {
-        'Content-Type': 'application/json',
+        'Location': '/success' // 替换为您的成功页面URL
       },
     });
 
   } catch (error) {
     console.error('Error sending email:', error);
-    return new Response(JSON.stringify({ success: false, error: 'Failed to send email' }), {
-      status: 500,
+    // 重定向到错误页面
+    return new Response(null, {
+      status: 302,
       headers: {
-        'Content-Type': 'application/json',
+        'Location': '/error' // 替换为您的错误页面URL
       },
     });
   }
