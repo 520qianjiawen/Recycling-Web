@@ -25,8 +25,8 @@ Ce système de granulation à deux étages pour flocons de HDPE comprend deux ex
 
 ## Afficher les Photos
 
-![PP HDPE Machine de Granulation de Flocons Rigides en Plastique-06](/images/pp_hdpe_rigid_plastic_flake_pelletizing_system-6.webp)
-![PP HDPE Machine de Granulation de Flocons Rigides en Plastique-07](/images/pp_hdpe_rigid_plastic_flake_pelletizing_system-7.webp)
+![PP HDPE Machine de Granulation de Flocons Rigides en Plastique-06](/images/pp-hdpe-rigid-plastic-flake-pelletizing-system-06.webp)
+![PP HDPE Machine de Granulation de Flocons Rigides en Plastique-07](/images/pp-hdpe-rigid-plastic-flake-pelletizing-system-07.webp)
 
 
 <div class="scrollable-table-container">
