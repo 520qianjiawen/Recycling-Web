@@ -16,38 +16,40 @@ export async function post({ request }) {
       });
     }
 
-  // 配置邮件传输服务
-  const transporter = nodemailer.createTransport({
-    host: process.env.SMTP_HOST,
-    port: process.env.SMTP_PORT,
-    secure: true,
-    auth: {
-      user: process.env.SMTP_USER,
-      pass: process.env.SMTP_PASS,
-    },
-  });
+    // 配置邮件传输服务
+    const transporter = nodemailer.createTransport({
+      host: process.env.SMTP_HOST,
+      port: process.env.SMTP_PORT,
+      secure: true,
+      auth: {
+        user: process.env.SMTP_USER,
+        pass: process.env.SMTP_PASS,
+      },
+    });
 
-  // 定义邮件选项
-  const mailOptions = {
-    from: '"Your Website" <cavon@recycling.top>', // 发件人
-    to: 'sales@recyclemachine.net', // 收件人
-    subject: 'New Contact Form Submission',
-    text: `You have a new contact form submission from:
-    Name: ${firstName} ${lastName}
-    Email: ${email}
-    Phone Number: ${phoneNumber}
-    Details: ${details}`,
-  };
+    // 定义邮件选项
+    const mailOptions = {
+      from: `"Your Website" <${process.env.SMTP_USER}>`, // 发件人
+      to: 'sales@recyclemachine.net', // 收件人
+      subject: 'New Contact Form Submission',
+      text: `You have a new contact form submission from:
+      Name: ${firstName} ${lastName}
+      Email: ${email}
+      Phone Number: ${phoneNumber}
+      Details: ${details}`,
+    };
 
-  // 发送邮件
-  try {
+    // 发送邮件
     await transporter.sendMail(mailOptions);
+
+    // 返回成功响应
     return new Response(JSON.stringify({ success: true }), {
       status: 200,
       headers: {
         'Content-Type': 'application/json',
       },
     });
+
   } catch (error) {
     console.error('Error sending email:', error);
     return new Response(JSON.stringify({ success: false, error: 'Failed to send email' }), {
