@@ -31,7 +31,7 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
           {formTitle}
         </h2>
 
-        <form id="contact-form" action="/send-email" method="POST>
+        <form id="contact-form" action="/send-email" method="POST">
           <div class="grid gap-4">
             <div class="grid grid-cols-1 gap-4 sm:grid-cols-2">
               <TextInput id="hs-firstname-contacts" label="First Name" name="hs-firstname-contacts" />
@@ -62,7 +62,7 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
   </div>
 </section>
 
-<script>
+<script client:load>
   // Select form elements
   const form = document.getElementById('contact-form');
   const emailInput = document.getElementById('hs-email-contacts');
@@ -84,4 +84,25 @@ const formSubTitle: string = "We'll get back to you in 1-2 business days.";
   // Add event listeners to inputs for real-time validation
   emailInput.addEventListener('input', validateForm);
   detailsInput.addEventListener('input', validateForm);
+
+  // Handle form submission with Fetch API
+  form.addEventListener('submit', function(event) {
+    event.preventDefault();
+
+    const formData = new FormData(this);
+
+    fetch('/send-email', {
+      method: 'POST',
+      body: formData,
+    })
+    .then(response => response.text())
+    .then(result => {
+      alert(result); // 可以显示成功信息
+      form.reset();  // 重置表单
+    })
+    .catch(error => {
+      console.error('Error:', error);
+      alert('There was an error sending your message.');
+    });
+  });
 </script>
