@@ -20,7 +20,7 @@ const footerLinks = [
     section: "Company",
     links: [
       { name: "About us", url: "https://www.recyclemachine.net/about-us" },
-      { name: "Blog", url: "https://www.recyclemachine.net/recycling-mechanical-products" },
+      { name: "Blog", url: "https://www.recyclemachine.net/recycling-machines" },
       { name: "Contact US", url: "https://www.recyclemachine.net/contact-us" },
       { name: "Privacy Policy", url: "https://www.recyclemachine.net/privacy-policy" },
     ],
