@@ -3,8 +3,6 @@ title: "The Future of Construction Technology"
 description: "Explore ScrewFast's pioneering role in revolutionizing construction through advanced technology and innovative solutions."
 cardImage: "@/images/insights/insight-1.avif"
 cardImageAlt: "Top view mechanical tools arrangement"
-articleImage: "@/images/small crusher form.webp"
-articleImageAlt: "Alt text for the article image"
 ---
 
 In the world of construction, where innovation meets practicality, ScrewFast stands as a beacon of pioneering advancements. For years, this company has been at the forefront of revolutionizing construction through its unwavering commitment to advanced technology and innovative solutions. From skyscrapers to bridges, ScrewFast has left an indelible mark on the industry, shaping the future of construction in ways once thought unimaginable.
@@ -37,11 +35,8 @@ As ScrewFast continues to push the boundaries of construction technology, it fac
 
 However, with its unwavering dedication to innovation and a track record of success, ScrewFast is well-positioned to overcome these obstacles and continue shaping the future of construction for generations to come. As the industry marches towards an increasingly digital and sustainable future, ScrewFast stands as a beacon of progress, leading the way towards a world where construction is not just efficient and cost-effective but also environmentally responsible.
 
-![描述文字](/images/Small Crusher-2.jpg)
-
 ## Conclusion
 
 In the ever-evolving landscape of construction technology, ScrewFast remains a trailblazer, constantly pushing the boundaries of what is possible. Through its commitment to innovation, digitalization, and sustainability, the company has not only revolutionized the way structures are built but has also set a new standard for excellence in the industry.
 
 As we look towards the future, one thing is clear: the legacy of ScrewFast will continue to shape the world of construction for years to come, inspiring generations of builders to dream big and push the limits of possibility. With ScrewFast leading the way, the future of construction has never looked brighter.
-
