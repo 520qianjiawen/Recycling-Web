@@ -50,12 +50,48 @@ specificationsLeft:
 specificationsRight:
   - title: "Specifications"
     subTitle: |
-      | **Model** | **#Rotor Diameter** | **Rotor Width** | **Rotating Speed** | **Approx. Output** | **Motor Power** |
-      |-----------|---------------------|-----------------|-------------------|-------------------|----------------|
-      | SWHB600   | ⌀450mm              | 600mm           | 400-600 rpm       | 300 kg/h          | 37KW           |
-      | SWHB800   | ⌀500mm              | 800mm           | 400-600 rpm       | 600 kg/h          | 45KW           |
-      | SWHB1000  | ⌀600mm              | 1000mm          | 400-600 rpm       | 900 kg/h          | 75KW           |
-      | SWHB1200  | ⌀700mm              | 1200mm          | 400-600 rpm       | 1200 kg/h         | 90KW           |
+      <table>
+        <tr>
+          <th>Model</th>
+          <th>#Rotor Diameter</th>
+          <th>Rotor Width</th>
+          <th>Rotating Speed</th>
+          <th>Approx. Output</th>
+          <th>Motor Power</th>
+        </tr>
+        <tr>
+          <td>SWHB600</td>
+          <td>⌀450mm</td>
+          <td>600mm</td>
+          <td>400-600 rpm</td>
+          <td>300 kg/h</td>
+          <td>37KW</td>
+        </tr>
+        <tr>
+          <td>SWHB800</td>
+          <td>⌀500mm</td>
+          <td>800mm</td>
+          <td>400-600 rpm</td>
+          <td>600 kg/h</td>
+          <td>45KW</td>
+        </tr>
+        <tr>
+          <td>SWHB1000</td>
+          <td>⌀600mm</td>
+          <td>1000mm</td>
+          <td>400-600 rpm</td>
+          <td>900 kg/h</td>
+          <td>75KW</td>
+        </tr>
+        <tr>
+          <td>SWHB1200</td>
+          <td>⌀700mm</td>
+          <td>1200mm</td>
+          <td>400-600 rpm</td>
+          <td>1200 kg/h</td>
+          <td>90KW</td>
+        </tr>
+      </table>
 blueprints:
   first: "@/images/blueprint-1.avif"
   second: "@/images/blueprint-2.avif"
