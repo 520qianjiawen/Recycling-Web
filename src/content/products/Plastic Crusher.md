@@ -47,7 +47,7 @@ specificationsLeft:
     subTitle: "Each set contains a comprehensive assortment of machine screws to meet diverse industrial requirements."
   - title: "Size Range"
     subTitle: "Available in various sizes and lengths to accommodate different machinery and equipment specifications."
-specificationsRight:
+tableData:
   - title: "Specifications"
     subTitle: |
       <table>
