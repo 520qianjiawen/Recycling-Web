@@ -1,7 +1,7 @@
 import ogImageSrc from "@/images/social.png";
 
 export const SITE = {
-  title: "Recycling Machinery",
+  title: "Plastic Recycling Machinery",
   tagline: "Top-quality Plastic Recycling Machine",
   description: "Discover top-of-the-line plastic recycling machines. Our durable and efficient equipment is designed to maximize your recycling capabilities and sustainability goals",
   description_short: "Explore our wide range of machinery and get expert advice to optimize your recycling processes.",
