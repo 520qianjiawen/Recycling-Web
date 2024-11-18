@@ -13,14 +13,14 @@ export default defineConfig({
     domains: ["images.unsplash.com"],
   },
   i18n: {
-    defaultLocale: "en",
-    locales: ["en", "fr", "de"],
+    defaultLocale: "de", // 设置默认语言为德语
+    locales: ["en", "fr", "de"], // 确保包含德语
     fallback: {
       fr: "de", // 法语回退到德语
       en: "de", // 英语回退到德语
     },
     routing: {
-      prefixDefaultLocale: false,
+      prefixDefaultLocale: false, // 根路径默认显示德语
     },
   },
   prefetch: true,
@@ -28,9 +28,9 @@ export default defineConfig({
     tailwind(),
     sitemap({
       i18n: {
-        defaultLocale: "de", // All urls that don't contain `fr` after `https://www.recyclingmachine.xyz/` will be treated as default locale, i.e. `en`
+        defaultLocale: "de", // 站点地图默认德语
         locales: {
-          en: "en", // The `defaultLocale` value must present in `locales` keys
+          en: "en",
           fr: "fr",
           de: "de",
         },
@@ -38,16 +38,16 @@ export default defineConfig({
     }),
     starlight({
       title: "Rumtoo Machinery",
-      defaultLocale: "root",
+      defaultLocale: "de", // 修改为德语默认
       locales: {
-        root: {
+        root: { // 根路径内容为德语
           label: "Deutsch",
           lang: "de",
         },
-        de: { label: "English", lang: "en" },
+        en: { label: "English", lang: "en" },
+        fr: { label: "Français", lang: "fr" },
         es: { label: "Español", lang: "es" },
         fa: { label: "Persian", lang: "fa", dir: "rtl" },
-        fr: { label: "Français", lang: "fr" },
         ja: { label: "日本語", lang: "ja" },
         "zh-cn": { label: "简体中文", lang: "zh-CN" },
       },
@@ -56,7 +56,7 @@ export default defineConfig({
         {
           label: "Quick Start Guides",
           translations: {
-            de: "Schnellstartanleitungen",
+            de: "Schnellstartanleitungen", // 德语翻译
             es: "Guías de Inicio Rápido",
             fa: "راهنمای شروع سریع",
             fr: "Guides de Démarrage Rapide",
