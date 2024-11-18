@@ -14,9 +14,10 @@ export default defineConfig({
   },
   i18n: {
     defaultLocale: "en",
-    locales: ["en", "fr"],
+    locales: ["en", "fr", "de"],
     fallback: {
-      fr: "en",
+      fr: "de", // 法语回退到德语
+      en: "de", // 英语回退到德语
     },
     routing: {
       prefixDefaultLocale: false,
@@ -27,28 +28,31 @@ export default defineConfig({
     tailwind(),
     sitemap({
       i18n: {
-        defaultLocale: "en", // All urls that don't contain `fr` after `https://www.recyclingmachine.xyz/` will be treated as default locale, i.e. `en`
+        defaultLocale: "de", // All urls that don't contain `fr` after `https://www.recyclingmachine.xyz/` will be treated as default locale, i.e. `en`
         locales: {
           en: "en", // The `defaultLocale` value must present in `locales` keys
           fr: "fr",
+          de: "de",
         },
       },
     }),
     starlight({
       title: "Rumtoo Machinery",
-      defaultLocale: "root",
+      defaultLocale: "de", // 将默认语言设置为德语
       locales: {
-        root: {
-          label: "English",
-          lang: "en",
+        root: { // 可选，若需要将 root 保留为默认语言路径
+          label: "Deutsch", // 默认语言显示为德语
+          lang: "de",
         },
-        de: { label: "Deutsch", lang: "de" },
+        de: { label: "Deutsch", lang: "de" }, // 保留德语配置
+        en: { label: "English", lang: "en" }, // 其他语言
         es: { label: "Español", lang: "es" },
         fa: { label: "Persian", lang: "fa", dir: "rtl" },
         fr: { label: "Français", lang: "fr" },
         ja: { label: "日本語", lang: "ja" },
         "zh-cn": { label: "简体中文", lang: "zh-CN" },
       },
+    }),
       // https://starlight.astro.build/guides/sidebar/
       sidebar: [
         {
