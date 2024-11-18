@@ -38,21 +38,19 @@ export default defineConfig({
     }),
     starlight({
       title: "Rumtoo Machinery",
-      defaultLocale: "de", // 将默认语言设置为德语
+      defaultLocale: "root",
       locales: {
-        root: { // 可选，若需要将 root 保留为默认语言路径
-          label: "Deutsch", // 默认语言显示为德语
+        root: {
+          label: "Deutsch",
           lang: "de",
         },
-        de: { label: "Deutsch", lang: "de" }, // 保留德语配置
-        en: { label: "English", lang: "en" }, // 其他语言
+        de: { label: "English", lang: "en" },
         es: { label: "Español", lang: "es" },
         fa: { label: "Persian", lang: "fa", dir: "rtl" },
         fr: { label: "Français", lang: "fr" },
         ja: { label: "日本語", lang: "ja" },
         "zh-cn": { label: "简体中文", lang: "zh-CN" },
       },
-    }),
       // https://starlight.astro.build/guides/sidebar/
       sidebar: [
         {
